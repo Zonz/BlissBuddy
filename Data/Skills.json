@@ -1,0 +1,684 @@
+[
+	{
+		"Name": "Attack",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"General Graardor": 68805.3,
+					"Frost Dragon": 47700.7,
+					"Ganodermic Beast": 73470.81,
+					"Dark Beast": 66865.47,
+					"Steel Dragon": 63998.9,
+					"Mithril Dragon": 60888.67,
+					"Skeletal Wyvern": 60640.82,
+					"Grifolapine": 56166.8,
+					"Iron Dragon": 50024,
+					"Vyrelord": 48074.86,
+					"Mature Grotworm": 41566.93,
+					"Waterfiend": 38380.46,
+					"Desert Strykewyrm": 36544.33,
+					"Suqah": 32233.64,
+					"Gargoyle": 31955.1,
+					"Greater Demon": 26490,
+					"TzHaar-Ket": 42640.23,
+					"TzHaar-Xil": 36527.86,
+					"TzHaar-Mej": 29946.14,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Defence",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"General Graardor": 68805.3,
+					"Frost Dragon": 47700.7,
+					"Ganodermic Beast": 73470.81,
+					"Dark Beast": 66865.47,
+					"Steel Dragon": 63998.9,
+					"Mithril Dragon": 60888.67,
+					"Skeletal Wyvern": 60640.82,
+					"Grifolapine": 56166.8,
+					"Iron Dragon": 50024,
+					"Vyrelord": 48074.86,
+					"Mature Grotworm": 41566.93,
+					"Waterfiend": 38380.46,
+					"Desert Strykewyrm": 36544.33,
+					"Suqah": 32233.64,
+					"Gargoyle": 31955.1,
+					"Greater Demon": 26490,
+					"TzHaar-Ket": 42640.23,
+					"TzHaar-Xil": 36527.86,
+					"TzHaar-Mej": 29946.14,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Strength",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"General Graardor": 68805.3,
+					"Frost Dragon": 47700.7,
+					"Ganodermic Beast": 73470.81,
+					"Dark Beast": 66865.47,
+					"Steel Dragon": 63998.9,
+					"Mithril Dragon": 60888.67,
+					"Skeletal Wyvern": 60640.82,
+					"Grifolapine": 56166.8,
+					"Iron Dragon": 50024,
+					"Vyrelord": 48074.86,
+					"Mature Grotworm": 41566.93,
+					"Waterfiend": 38380.46,
+					"Desert Strykewyrm": 36544.33,
+					"Suqah": 32233.64,
+					"Gargoyle": 31955.1,
+					"Greater Demon": 26490,
+					"TzHaar-Ket": 42640.23,
+					"TzHaar-Xil": 36527.86,
+					"TzHaar-Mej": 29946.14,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Constitution",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"General Graardor": 22935.1,
+					"Frost Dragon": 15900.2,
+					"Ganodermic Beast": 24490.27,
+					"Dark Beast": 22288.49,
+					"Steel Dragon": 21354.9,
+					"Mithril Dragon": 20296,
+					"Skeletal Wyvern": 20213.53,
+					"Grifolapine": 18722.4,
+					"Iron Dragon": 16674.63,
+					"Vyrelord": 16025,
+					"Mature Grotworm": 13855.63,
+					"Waterfiend": 12793.49,
+					"Desert Strykewyrm": 12181.4,
+					"Suqah": 10745.09,
+					"Gargoyle": 10651.7,
+					"Greater Demon": 8830.03,
+					"TzHaar-Ket": 14213.43,
+					"TzHaar-Xil": 12176,
+					"TzHaar-Mej": 9982,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Ranged",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+				}
+			}
+		]
+	},
+	{
+		"Name": "Prayer",
+		"ExperienceMethods":
+		[
+			{
+				"Name": "Gilded Altar (2 burners lit)",
+				"IterationText": "Bones",
+				"BaseExpText": "bone",
+				"ExperienceTable":
+				{
+					"Frost Dragon Bones": 47880,
+					"Ourg Bones": 37240,
+					"Dagannoth Bones": 33250,
+					"Dragon Bones": 19152,
+					"Wyvern Bones": 13300,
+					"Babydragon Bones": 7980,
+					"Big Bones": 3990,
+					"Bones": 1198,
+				}
+			},
+			{
+				"Name": "Gilded Altar (1 burner lit)",
+				"IterationText": "Bones",
+				"BaseExpText": "bone",
+				"ExperienceTable":
+				{
+					"Frost Dragon Bones": 41040,
+					"Ourg Bones": 31920,
+					"Dagannoth Bones": 28500,
+					"Dragon Bones": 16416,
+					"Wyvern Bones": 11400,
+					"Babydragon Bones": 6840,
+					"Big Bones": 3420,
+					"Bones": 1026,
+				}
+			},
+			{
+				"Name": "Gilded Altar (no burners lit)",
+				"IterationText": "Bones",
+				"BaseExpText": "bone",
+				"ExperienceTable":
+				{
+					"Frost Dragon Bones": 34200,
+					"Ourg Bones": 26600,
+					"Dagannoth Bones": 23750,
+					"Dragon Bones": 13680,
+					"Wyvern Bones": 9500,
+					"Babydragon Bones": 5700,
+					"Big Bones": 2850,
+					"Bones": 854,
+				}
+			},
+			{
+				"Name": "Burying / Bonecrusher",
+				"IterationText": "Bones",
+				"BaseExpText": "bone",
+				"ExperienceTable":
+				{
+					"Frost Dragon Bones": 13680,
+					"Ourg Bones": 10640,
+					"Dagannoth Bones": 9500,
+					"Dragon Bones": 5472,
+					"Wyvern Bones": 3800,
+					"Babydragon Bones": 2280,
+					"Big Bones": 1140,
+					"Bones": 342,
+				}
+			},
+		]
+	},
+	{
+		"Name": "Magic",
+		"ExperienceMethods":
+		[
+			{
+				"Name": "Spells",
+				"IterationText": "Casts",
+				"BaseExpText": "cast",
+				"ExperienceTable":
+				{
+					"High Alchemy": 4940,
+					"Low Alchemy": 2356,
+
+					"Telekinetic Grab": 760,
+					"Superheat Item": 6878,
+					"Plank Make": 6840,
+
+					"Enchant Sapphire Jewelry": 760,
+					"Enchant Emerald Jewelry": 1520,
+					"Enchant Ruby Jewelry": 2280,
+					"Enchant Diamond Jewelry": 3040,
+					"Enchant Dragonstone Jewelry": 3800,
+					"Enchant Onyx Jewelry": 4560,
+
+					"Mobilising Armies Teleport": 1444,
+					"Varrock Teleport": 1444,
+					"Lumbridge Teleport": 3116,
+					"Falador Teleport": 3648,
+					"Camelot Teleport": 4218,
+					"Ardougne Teleport": 4636,
+					"Watchtower Teleport": 5168,
+					"Trollheim Teleport": 5168,
+
+					"Moonclan Teleport": 5016,
+					"Ourania Teleport": 5624,
+					"South Falador Teleport": 5700,
+					"Waterbirth Teleport": 5396,
+					"Barbarian Teleport": 5776,
+					"North Ardougne Teleport": 5852,
+					"Khazard Teleport": 6080,
+					"Fishing Guild Teleport": 6764,
+					"Catherby Teleport": 6992,
+					"Ice Plateau Teleport": 7296,
+					"Trollheim Teleport": 7676,
+
+					"Paddewwa Teleport": 4864,
+					"Senntisten Teleport": 5320,
+					"Kharyrll Teleport": 5776,
+					"Lassar Teleport": 6232,
+					"Dareeyak Teleport": 6688,
+					"Carrallangar Teleport": 7144,
+					"Annakarl Teleport": 7600,
+					"Ghorrock Teleport": 8056,
+				}
+			},
+			{
+				"Name": "Combat",
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"Glacor + Minions (Blood Blitz)": 200374,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Slayer",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Kills",
+				"BaseExpText": "kill",
+				"ExperienceTable":
+				{
+					"Glacor": 38000,
+					"Tormented Demon": 24776,
+					"Ice Strykewyrm": 22800,
+					"Ganodermic Beast": 19000,
+					"Dark Beast": 16720,
+					"Skeletal Wyvern": 15200,
+					"Mithril Dragon": 15200,
+					"Steel Dragon": 15200,
+					"Grifolapine": 14440,
+					"Black Dragon": 14440,
+					"Grifolaroo": 13528,
+					"Iron Dragon": 12540,
+					"Vyrelord": 12160,
+					"Abyssal Demon": 11400,
+					"Mature Grotworm": 10640,
+					"TzHaar-Ket": 10640,
+					"TzHaar-Xil": 9120,
+					"TzHaar-Mej": 7600,
+					"Waterfiend": 9576,
+					"Aquanite": 9500,
+					"Desert Strykewyrm": 9120,
+					"Bloodveld": 9120,
+					"Hellhound": 8740,
+					"Fire Giant": 8436,
+					"Suqah": 8056,
+					"Gargoyle": 7980,
+					"Dust Devil": 7980,
+					"Greater Demon": 6612,
+					"Spiritual Mage": 6460,
+					"Dagannoth": 5396,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Cooking",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Successful cooks",
+				"BaseExpText": "item",
+				"ExperienceTable":
+				{
+					"Rocktail": 17100,
+					"Cavefish": 16264,
+					"Shark": 15960,
+					"Monkfish": 11400,
+					"Swordfish": 10640,
+					"Lobster": 9120,
+					"Tuna": 7600,
+					"Salmon": 6840,
+					"Trout": 5320,
+					"Anchovies": 2280,
+					"Shrimp": 2280,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Woodcutting",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Logs",
+				"BaseExpText": "log",
+				"ExperienceTable":
+				{
+					"Ivy": 25270,
+					"Magic": 19000,
+					"Yew": 13300,
+					"Mahogany": 9500,
+					"Teak": 4660,
+					"Maple": 7600,
+					"Willow": 5130,
+					"Oak": 2850,
+					"Regular": 1900,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Fletching",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Items",
+				"BaseExpText": "item",
+				"ExperienceTable":
+				{
+					"Magic Longbow (u)": 6954,
+					"Yew Longbow (u)": 5700,
+					"Broad Arrow": 760,
+					"Dragon Arrow": 1238.8,
+					"Rune Arrow": 1049,
+					"Onyx Bolt": 714,
+					"Dragonstone Bolt": 623,
+					"Diamond Bolt": 532,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Fishing",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Fish",
+				"BaseExpText": "fish",
+				"ExperienceTable":
+				{
+					"Rocktail": 29260,
+					"Cavefish": 22800,
+					"Monkfish": 9120,
+					"Shark": 8360,
+					"Swordfish": 7600,
+					"Lobster": 6840,
+					"Tuna": 6080,
+					"Salmon": 5320,
+					"Trout": 3800,
+					"Anchovies": 3040,
+					"Shrimp": 760,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Firemaking",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Logs",
+				"BaseExpText": "log",
+				"ExperienceTable":
+				{
+					"Magic Logs": 28728,
+					"Yew Logs": 19152,
+					"Mahogany Logs": 13680,
+					"Maple Logs": 11932,
+					"Teak Logs": 9120,
+					"Willow Logs": 8550,
+					"Oak Logs": 5700,
+					"Regular Logs": 3800,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Crafting",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Items",
+				"BaseExpText": "item",
+				"ExperienceTable":
+				{
+					"Potion Flask": 7600,
+					"Green D'Hide Body": 14136,
+					"Blue D'Hide Body": 15960,
+					"Red D'Hide Body": 17784,
+					"Black D'Hide Body": 19608,
+					"Royal D'Hide Body": 21432,
+					"Cut Onyx": 12730,
+					"Cut Dragonstone": 10450,
+					"Cut Diamond": 8170,
+					"Cut Ruby": 6460,
+					"Cut Emerald": 5092,
+					"Cut Sapphire": 3800,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Smithing",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Items",
+				"BaseExpText": "item",
+				"ExperienceTable":
+				{
+					"Gold Bar (w/goldsmith)": 4271.2,
+					"Gold Bar (w/o goldsmith)": 1710,
+					"Steel Platebody": 14250,
+					"Rune Platebody": 28500,
+					"Rune Bar": 3800,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Mining",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Ores",
+				"BaseExpText": "ore",
+				"ExperienceTable":
+				{
+					"Red Sandstone": 5320,
+					"Gold Ore": 4560,
+					"Coal": 3800,
+					"Runite Ore": 9500,
+					"Adamantite Ore": 7220,
+					"Mithril Ore": 6080,
+					"Iron Ore": 2660,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Herblore",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Potions",
+				"BaseExpText": "potion",
+				"ExperienceTable":
+				{
+					"Overload (+ Extremes)": 167200,
+					"Overload": 76000,
+					"Extreme Attack": 16720,
+					"Extreme Strength": 17480,
+					"Extreme Defence": 18240,
+					"Extreme Ranging": 19760,
+					"Extreme Magic": 19000,
+					"Prayer Renewal": 14440,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Agility",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Laps",
+				"BaseExpText": "lap",
+				"ExperienceTable":
+				{
+					"Advanced Barbarian Course": 57282,
+					"Advanced Gnome Course": 55100,
+					"Wilderness Course": 42142,
+					"Barbarian Course": 13223,
+					"Gnome Course": 6574,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Thieving",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Steals",
+				"BaseExpText": "steal",
+				"ExperienceTable":
+				{
+					"Gem Stall": 7980,
+					"Master Farmer": 653.6,
+					"Spice Stall": 6156,
+					"Silver Stall": 4104,
+					"Fish Stall": 3192,
+					"Fur Stall": 2736,
+					"Silk Stall": 1824,
+					"Tea Stall": 1216,
+					"Baker's Stall": 608,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Farming",
+		"ExperienceMethods":
+		[
+			{
+				"Name": "Normal Trees",
+				"IterationText": "Trees",
+				"BaseExpText": "tree",
+				"ExperienceTable":
+				{
+					"Magic Tree": 1057448,
+					"Yew Tree": 543530,
+					"Maple Tree": 261318,
+					"Willow Tree": 112578,
+					"Oak Tree": 36580,
+				}
+			},
+			{
+				"Name": "Fruit Trees",
+				"IterationText": "Trees",
+				"BaseExpText": "tree",
+				"ExperienceTable":
+				{
+					"Palm Tree": 798730,
+					"Papaya Tree": 484910,
+					"Curry Tree": 230804,
+					"Banana Tree": 139954,
+					"Apple Tree": 96710,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Runecrafting",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Essence",
+				"BaseExpText": "essence",
+				"ExperienceTable":
+				{
+					"ZMI": 1337.24,
+					"Blood": 798,
+					"Death": 760,
+					"1:1 Death/Blood": 779,
+					"2:1 Death/Blood": 772.67,
+					"Law": 722,
+					"Nature": 684,
+					"Chaos": 646,
+					"Cosmic": 608,
+					"Body": 570,
+					"Fire": 532,
+					"Earth": 494,
+					"Water": 456,
+					"Mind": 418,
+					"Air": 380,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Hunter",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Catches",
+				"BaseExpText": "catch",
+				"ExperienceTable":
+				{
+					"Grenwall": 41800,
+					"Red Chimchompa": 20140,
+					"Grey Chinchompa": 15086,
+					"Tropical Wagtail": 7236,
+					"Cerulean Twitch": 4914,
+					"Copper Longtail": 4636,
+					"Golden Warbler": 3648,
+					"Crimson Swift": 2584,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Construction",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Items",
+				"BaseExpText": "item",
+				"ExperienceTable":
+				{
+					"Mahogany Table": 63840,
+					"Teak Table": 27360,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Summoning",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "Pouches",
+				"BaseExpText": "pouch",
+				"ExperienceTable":
+				{
+					"Barker Toad (Gold)": 6612,
+					"Unicorn Stallion (Green)": 11734,
+					"Steel Titan (Crimson)": 33075,
+					"Geyser Titan (Blue)": 59523,
+				}
+			}
+		]
+	},
+	{
+		"Name": "Dungeoneering",
+		"ExperienceMethods":
+		[
+			{
+				"IterationText": "",
+				"BaseExpText": "",
+				"ExperienceTable":
+				{
+				}
+			}
+		]
+	},
+]
