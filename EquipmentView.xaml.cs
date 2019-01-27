@@ -149,9 +149,11 @@ namespace BlissBuddy
 
         private void AmmoSelected(object sender, RoutedEventArgs e)
         {
-            RemoveItem(currentAmmo);
+            if (currentMainHand.RangedStrength == 0)
+                RemoveItem(currentAmmo);
             currentAmmo = SelectItem(AmmoImage, e);
-            AddItem(currentAmmo);
+            if (currentMainHand.RangedStrength == 0)
+                AddItem(currentAmmo);
         }
 
         private void AmmoLeftClick(object sender, MouseButtonEventArgs e)
@@ -162,15 +164,20 @@ namespace BlissBuddy
         private void AmmoRightClick(object sender, MouseButtonEventArgs e)
         {
             AmmoImage.Visibility = Visibility.Hidden;
-            RemoveItem(currentAmmo);
+            if (currentMainHand.RangedStrength == 0)
+                RemoveItem(currentAmmo);
             currentAmmo = new Item();
         }
 
         private void MainHandSelected(object sender, RoutedEventArgs e)
         {
             RemoveItem(currentMainHand);
+            if (currentMainHand.RangedStrength > 0)
+                AddItem(currentAmmo);
             currentMainHand = SelectItem(MainHandImage, e);
             AddItem(currentMainHand);
+            if (currentMainHand.RangedStrength > 0)
+                RemoveItem(currentAmmo);
             if (currentMainHand.TwoHandWeapon)
             {
                 RemoveItem(currentOffHand);
@@ -188,6 +195,8 @@ namespace BlissBuddy
         {
             MainHandImage.Visibility = Visibility.Hidden;
             RemoveItem(currentMainHand);
+            if (currentMainHand.RangedStrength > 0)
+                AddItem(currentAmmo);
             currentMainHand = new Item();
         }
 
