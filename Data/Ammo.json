@@ -1,0 +1,17 @@
+[
+	{
+		"Name": "Ruby bolts",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/1/13/Ruby_bolts_%28e%29_5.png",
+		"RangedStrength": 103,
+	},
+	{
+		"Name": "Onyx bolts",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d4/Onyx_bolts_%28e%29_5.png",
+		"RangedStrength": 120,
+	},
+	{
+		"Name": "Royal bolts",
+		"ImageUrl": "https://runescape.wiki/images/6/65/Royal_bolts_5.png",
+		"RangedStrength": 125,
+	},
+]
