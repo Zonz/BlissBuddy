@@ -11,6 +11,17 @@
 		"Strength": 4,
 	},
 	{
+		"Name": "Glaiven boots",
+		"ImageUrl": "https://runescape.wiki/images/7/79/Glaiven_boots.png",
+		"MagicAttack": -12,
+		"RangeAttack": 10,
+		"StabDefence": 3,
+		"SlashDefence": 4,
+		"CrushDefence": 5,
+		"MagicDefence": 3,
+		"SummoningDefence": 12,
+	},
+	{
 		"Name": "Ragefire boots",
 		"ImageUrl": "https://runescape.wiki/images/b/b0/Ragefire_boots.png",
 		"MagicAttack": 6,
