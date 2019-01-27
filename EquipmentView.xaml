@@ -1,0 +1,126 @@
+﻿<UserControl x:Class="BlissBuddy.EquipmentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BlissBuddy"
+             xmlns:cachedImage="clr-namespace:CachedImage;assembly=CachedImage"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="2" Margin="10,10,10,10">
+            <Grid Background="Gray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="129*"/>
+                    <ColumnDefinition Width="259*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Black" Width="150" MinWidth="150" Height="380" Margin="10,23,0,23">
+                    <TextBlock Text="Attack Bonuses" FontWeight="Bold" Margin="10,10,0,0" Foreground="#ffa144"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Stab:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="StabAttack" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Slash:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="SlashAttack" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Crush:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="CrushAttack" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Magic:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="MagicAttack" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Range:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="RangeAttack" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <TextBlock Text="Defence Bonuses" FontWeight="Bold" Margin="10,10,0,0" Foreground="#ffa144"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Stab:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="StabDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Slash:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="SlashDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Crush:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="CrushDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Magic:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="MagicDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Range:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="RangeDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Summoning:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="SummoningDefence" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Absorb Melee:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="AbsorbMelee" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Text="%" Margin="1,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Absorb Magic:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="AbsorbMagic" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Text="%" Margin="1,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Absorb Ranged:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="AbsorbRanged" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Text="%" Margin="1,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <TextBlock Text="Other Bonuses" FontWeight="Bold" Margin="10,10,0,0" Foreground="#ffa144"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Strength:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="Strength" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Ranged Str:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="RangedStr" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Prayer:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="Prayer" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Magic Damage:" Margin="16,0,0,0" Foreground="#ffa144"/>
+                        <TextBlock Name="MagicDamage" Text="+0" Margin="2,0,0,0" Foreground="#ffa144"/>
+                    </StackPanel>
+                </StackPanel>
+                <Grid Grid.Column="1" Background="Black" HorizontalAlignment="Right" VerticalAlignment="Center" Width="250" Height="300" Margin="0,0,10,0">
+                    <cachedImage:Image Width="30" Height="30" ImageUrl="https://oldschool.runescape.wiki/images/9/96/Hitpoints_icon.png" Margin="210,15,10,255" />
+                    <TextBlock Name="HealthText" Text="990" Foreground="Green" Width="Auto" Height="Auto" TextAlignment="Right" Margin="-45,26,45,-26" FontSize="18" FontWeight="Bold"/>
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/3/35/Head_slot.png" MouseLeftButtonUp="HelmLeftClick" MouseRightButtonUp="HelmRightClick" Margin="100,15,100,235" />
+                    <cachedImage:Image Name="HelmImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="HelmLeftClick" MouseRightButtonUp="HelmRightClick" Margin="100,15,100,235" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/b/ba/Cape_slot.png" MouseLeftButtonUp="CapeLeftClick" MouseRightButtonUp="CapeRightClick" Margin="45,70,155,180" />
+                    <cachedImage:Image Name="CapeImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="CapeLeftClick" MouseRightButtonUp="CapeRightClick" Margin="45,70,155,180" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/b/b4/Neck_slot.png" MouseLeftButtonUp="AmuletLeftClick" MouseRightButtonUp="AmuletRightClick" Margin="100,70,100,180" />
+                    <cachedImage:Image Name="AmuletImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="AmuletLeftClick" MouseRightButtonUp="AmuletRightClick" Margin="100,70,100,180" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/6/64/Ammo_slot.png" MouseLeftButtonUp="AmmoLeftClick" MouseRightButtonUp="AmmoRightClick" Margin="155,70,45,180" />
+                    <cachedImage:Image Name="AmmoImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="AmmoLeftClick" MouseRightButtonUp="AmmoRightClick" Margin="155,70,45,180" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/d/d1/Weapon_slot.png" MouseLeftButtonUp="MainHandLeftClick" MouseRightButtonUp="MainHandRightClick" Margin="32,125,168,125" />
+                    <cachedImage:Image Name="MainHandImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="MainHandLeftClick" MouseRightButtonUp="MainHandRightClick" Margin="32,125,168,125" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/d/d9/Shield_slot.png" MouseLeftButtonUp="OffHandLeftClick" MouseRightButtonUp="OffHandRightClick" Margin="167,125,33,125" />
+                    <cachedImage:Image Name="OffHandImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="OffHandLeftClick" MouseRightButtonUp="OffHandRightClick" Margin="167,125,33,125" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/3/33/Torso_slot.png" MouseLeftButtonUp="TorsoLeftClick" MouseRightButtonUp="TorsoRightClick" Margin="100,125,100,125" />
+                    <cachedImage:Image Name="TorsoImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="TorsoLeftClick" MouseRightButtonUp="TorsoRightClick" Margin="100,125,100,125" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/2/25/Legs_slot.png" MouseLeftButtonUp="LegsLeftClick" MouseRightButtonUp="LegsRightClick" Margin="100,180,100,70" />
+                    <cachedImage:Image Name="LegsImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="LegsLeftClick" MouseRightButtonUp="LegsRightClick" Margin="100,180,100,70" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/6/69/Gloves_slot.png" MouseLeftButtonUp="GlovesLeftClick" MouseRightButtonUp="GlovesRightClick" Margin="32,235,168,15" />
+                    <cachedImage:Image Name="GlovesImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="GlovesLeftClick" MouseRightButtonUp="GlovesRightClick" Margin="32,235,168,15" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/b/b0/Boots_slot.png" MouseLeftButtonUp="BootsLeftClick" MouseRightButtonUp="BootsRightClick" Margin="100,235,100,15" />
+                    <cachedImage:Image Name="BootsImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="BootsLeftClick" MouseRightButtonUp="BootsRightClick" Margin="100,235,100,15" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/9/9f/Ring_slot.png" MouseLeftButtonUp="RingLeftClick" MouseRightButtonUp="RingRightClick" Margin="167,235,33,15" />
+                    <cachedImage:Image Name="RingImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="RingLeftClick" MouseRightButtonUp="RingRightClick" Margin="167,235,33,15" />
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
