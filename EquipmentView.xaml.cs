@@ -207,6 +207,8 @@ namespace BlissBuddy
             AddItem(currentOffHand);
             if (currentMainHand.TwoHandWeapon)
             {
+                if (currentMainHand.RangedStrength > 0)
+                    AddItem(currentAmmo);
                 RemoveItem(currentMainHand);
                 currentMainHand = new Item();
                 MainHandImage.Visibility = Visibility.Hidden;
