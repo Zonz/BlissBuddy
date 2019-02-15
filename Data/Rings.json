@@ -1,5 +1,23 @@
 [
 	{
+		"Name": "Archer's ring (i)",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/b/bd/Archers_ring_%28i%29.png",
+		"RangeAttack": 8,
+		"RangeDefence": 8
+	},
+	{
+		"Name": "Berserker ring",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/archive/c/c5/20140212225522%21Berserker_ring.png",
+		"CrushDefence": 4,
+		"Strength": 4
+	},
+	{
+		"Name": "Berserker ring (i)",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/7/72/Berserker_ring_%28i%29.png",
+		"CrushDefence": 8,
+		"Strength": 8
+	},
+	{
 		"Name": "Ring of wealth (i)",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/1c/Ring_of_wealth_%28i%29.png",
 		"StabAttack": 4,
@@ -12,24 +30,12 @@
 		"CrushDefence": 4,
 		"MagicDefence": 4,
 		"RangeDefence": 4,
-		"Strength": 4,
-	},
-	{
-		"Name": "Archer's ring (i)",
-		"ImageUrl": "https://oldschool.runescape.wiki/images/b/bd/Archers_ring_%28i%29.png",
-		"RangeAttack": 8,
-		"RangeDefence": 8,
+		"Strength": 4
 	},
 	{
 		"Name": "Seers ring (i)",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/0/06/Seers_ring_%28i%29.png",
 		"MagicAttack": 8,
-		"MagicDefence": 8,
-	},
-	{
-		"Name": "Berserker ring (i)",
-		"ImageUrl": "https://oldschool.runescape.wiki/images/7/72/Berserker_ring_%28i%29.png",
-		"CrushDefence": 8,
-		"Strength": 8,
-	},
+		"MagicDefence": 8
+	}
 ]

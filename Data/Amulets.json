@@ -1,14 +1,20 @@
 [
 	{
-		"Name": "Third-age amulet",
-		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c1/3rd_age_amulet.png",
-		"MagicAttack": 15,
-		"MagicDefence": 10,
-	},
-	{
-		"Name": "Demon horn necklace",
-		"ImageUrl": "https://runescape.wiki/images/2/23/Demon_horn_necklace.png",
-		"Prayer": 13,
+		"Name": "Amulet of fury",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/0/02/Amulet_of_fury.png",
+		"StabAttack": 10,
+		"SlashAttack": 10,
+		"CrushAttack": 10,
+		"MagicAttack": 10,
+		"RangeAttack": 10,
+		"StabDefence": 15,
+		"SlashDefence": 15,
+		"CrushDefence": 15,
+		"MagicDefence": 15,
+		"RangeDefence": 15,
+		"SummoningDefence": 15,
+		"Strength": 8,
+		"Prayer": 5
 	},
 	{
 		"Name": "Amulet of glory",
@@ -25,43 +31,31 @@
 		"RangeDefence": 3,
 		"SummoningDefence": 3,
 		"Strength": 6,
-		"Prayer": 3,
-	},
-	{
-		"Name": "Amulet of fury",
-		"ImageUrl": "https://oldschool.runescape.wiki/images/0/02/Amulet_of_fury.png",
-		"StabAttack": 10,
-		"SlashAttack": 10,
-		"CrushAttack": 10,
-		"MagicAttack": 10,
-		"RangeAttack": 10,
-		"StabDefence": 15,
-		"SlashDefence": 15,
-		"CrushDefence": 15,
-		"MagicDefence": 15,
-		"RangeDefence": 15,
-		"SummoningDefence": 15,
-		"Strength": 8,
-		"Prayer": 5,
+		"Prayer": 3
 	},
 	{
 		"Name": "Arcane stream necklace",
 		"ImageUrl": "https://runescape.wiki/images/8/8e/Arcane_stream_necklace.png",
 		"MagicAttack": 14,
-		"MagicDamage": 15,
+		"MagicDamage": 15
 	},
 	{
-		"Name": "Saradomin's murmur",
-		"ImageUrl": "https://runescape.wiki/images/2/2e/Saradomin%27s_murmur.png",
-		"RangeAttack": 18,
-		"Prayer": 1,
+		"Name": "Demon horn necklace",
+		"ImageUrl": "https://runescape.wiki/images/2/23/Demon_horn_necklace.png",
+		"Prayer": 13
 	},
 	{
 		"Name": "Saradomin's hiss",
 		"ImageUrl": "https://runescape.wiki/images/8/8f/Saradomin%27s_hiss.png",
 		"MagicAttack": 16,
 		"Prayer": 1,
-		"MagicDamage": 12,
+		"MagicDamage": 12
+	},
+	{
+		"Name": "Saradomin's murmur",
+		"ImageUrl": "https://runescape.wiki/images/2/2e/Saradomin%27s_murmur.png",
+		"RangeAttack": 18,
+		"Prayer": 1
 	},
 	{
 		"Name": "Saradomin's whisper",
@@ -70,6 +64,12 @@
 		"SlashAttack": 8,
 		"CrushAttack": 8,
 		"Strength": 12,
-		"Prayer": 1,
+		"Prayer": 1
 	},
-]
+	{
+		"Name": "Third-age amulet",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c1/3rd_age_amulet.png",
+		"MagicAttack": 15,
+		"MagicDefence": 10
+	}
+] 
