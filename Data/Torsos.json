@@ -1,5 +1,23 @@
 [
 	{
+		"Name": "Armadyl chestplate",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/3/38/Armadyl_chestplate.png",
+		"StabAttack": -7,
+		"SlashAttack": -7,
+		"CrushAttack": -7,
+		"MagicAttack": -15,
+		"RangeAttack": 33,
+		"StabDefence": 56,
+		"SlashDefence": 48,
+		"CrushDefence": 61,
+		"MagicDefence": 70,
+		"RangeDefence": 57,
+		"SummoningDefence": 52,
+		"AbsorbMagic": 10,
+		"AbsorbRanged": 5,
+		"Prayer": 1
+	},
+	{
 		"Name": "Bandos chestplate",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/2e/Bandos_chestplate.png",
 		"MagicAttack": -15,
@@ -52,6 +70,24 @@
 		"SummoningDefence": 80,
 		"AbsorbMelee": 15,
 		"AbsorbMagic": 34
+	},
+	{
+		"Name": "Lucky Armadyl chestplate",
+		"ImageUrl": "https://runescape.wiki/images/archive/5/52/20160502051427%21Lucky_Armadyl_chestplate.png",
+		"StabAttack": -7,
+		"SlashAttack": -7,
+		"CrushAttack": -7,
+		"MagicAttack": -15,
+		"RangeAttack": 29,
+		"StabDefence": 50,
+		"SlashDefence": 43,
+		"CrushDefence": 54,
+		"MagicDefence": 63,
+		"RangeDefence": 51,
+		"SummoningDefence": 46,
+		"AbsorbMagic": 9,
+		"AbsorbRanged": 4,
+		"Prayer": 1
 	},
 	{
 		"Name": "Lucky Bandos chestplate",
@@ -189,5 +225,15 @@
 		"AbsorbMagic": 6,
 		"Prayer": 1,
 		"HealthBonus": 200
+	},
+	{
+		"Name": "Void knight top",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/f/f1/Void_knight_top.png",
+		"StabDefence": 45,
+		"SlashDefence": 45,
+		"CrushDefence": 45,
+		"MagicDefence": 45,
+		"RangeDefence": 45,
+		"SummoningDefence": 45
 	}
 ]

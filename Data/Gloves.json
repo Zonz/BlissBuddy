@@ -114,5 +114,15 @@
 		"RangeDefence": -6,
 		"Prayer": 1,
 		"HealthBonus": 25
+	},
+	{
+		"Name": "Void knight gloves",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/9/91/Void_knight_gloves.png",
+		"StabDefence": 6,
+		"SlashDefence": 6,
+		"CrushDefence": 6,
+		"MagicDefence": 4,
+		"RangeDefence": 6,
+		"SummoningDefence": 6
 	}
 ]

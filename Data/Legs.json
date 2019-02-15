@@ -1,5 +1,23 @@
 [
 	{
+		"Name": "Armadyl chainskirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/5/55/Armadyl_chainskirt.png",
+		"StabAttack": -6,
+		"SlashAttack": -6,
+		"CrushAttack": -6,
+		"MagicAttack": -10,
+		"RangeAttack": 20,
+		"StabDefence": 32,
+		"SlashDefence": 26,
+		"CrushDefence": 34,
+		"MagicDefence": 40,
+		"RangeDefence": 33,
+		"SummoningDefence": 25,
+		"AbsorbMagic": 7,
+		"AbsorbRanged": 3,
+		"Prayer": 1
+	},
+	{
 		"Name": "Bandos tassets",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/5d/Bandos_tassets.png",
 		"MagicAttack": -21,
@@ -52,6 +70,24 @@
 		"SummoningDefence": 30,
 		"AbsorbMelee": 5,
 		"AbsorbMagic": 12
+	},
+	{
+		"Name": "Lucky Armadyl chainskirt",
+		"ImageUrl": "https://runescape.wiki/images/archive/8/8d/20160502051425%21Lucky_Armadyl_chainskirt.png",
+		"StabAttack": -6,
+		"SlashAttack": -6,
+		"CrushAttack": -6,
+		"MagicAttack": -10,
+		"RangeAttack": 18,
+		"StabDefence": 28,
+		"SlashDefence": 23,
+		"CrushDefence": 30,
+		"MagicDefence": 36,
+		"RangeDefence": 29,
+		"SummoningDefence": 22,
+		"AbsorbMagic": 6,
+		"AbsorbRanged": 2,
+		"Prayer": 1
 	},
 	{
 		"Name": "Lucky Bandos tassets",
@@ -190,5 +226,15 @@
 		"AbsorbMagic": 4,
 		"Prayer": 1,
 		"HealthBonus": 134
+	},
+	{
+		"Name": "Void knight robe",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/5/5f/Void_knight_robe.png",
+		"StabDefence": 30,
+		"SlashDefence": 30,
+		"CrushDefence": 30,
+		"MagicDefence": 30,
+		"RangeDefence": 30,
+		"SummoningDefence": 15
 	}
 ]

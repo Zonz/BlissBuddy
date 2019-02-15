@@ -1,5 +1,23 @@
 [
 	{
+		"Name": "Armadyl helmet",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/b/b7/Armadyl_helmet.png",
+		"StabAttack": -5,
+		"SlashAttack": -5,
+		"CrushAttack": -5,
+		"MagicAttack": -5,
+		"RangeAttack": 10,
+		"StabDefence": 6,
+		"SlashDefence": 6,
+		"CrushDefence": 10,
+		"MagicDefence": 10,
+		"RangeDefence": 8,
+		"SummoningDefence": 12,
+		"AbsorbMagic": 5,
+		"AbsorbRanged": 2,
+		"Prayer": 1
+	},
+	{
 		"Name": "Battle-mage helm",
 		"ImageUrl": "https://runescape.wiki/images/b/b8/Battle-mage_helm.png",
 		"MagicAttack": 8,
@@ -64,6 +82,24 @@
 		"AbsorbRanged": 4,
 		"Strength": 3,
 		"Prayer": 3
+	},
+	{
+		"Name": "Lucky Armadyl helmet",
+		"ImageUrl": "https://runescape.wiki/images/archive/1/1b/20160502051436%21Lucky_Armadyl_helmet.png",
+		"StabAttack": -5,
+		"SlashAttack": -5,
+		"CrushAttack": -5,
+		"MagicAttack": -5,
+		"RangeAttack": 9,
+		"StabDefence": 5,
+		"SlashDefence": 5,
+		"CrushDefence": 9,
+		"MagicDefence": 9,
+		"RangeDefence": 7,
+		"SummoningDefence": 10,
+		"AbsorbMagic": 4,
+		"AbsorbRanged": 1,
+		"Prayer": 1
 	},
 	{
 		"Name": "Max hood",
@@ -195,5 +231,35 @@
 		"AbsorbMagic": 3,
 		"Prayer": 1,
 		"HealthBonus": 66
+	},
+	{
+		"Name": "Void mage helm",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/1/14/Void_mage_helm.png",
+		"StabDefence": 6,
+		"SlashDefence": 6,
+		"CrushDefence": 6,
+		"MagicDefence": 6,
+		"RangeDefence": 6,
+		"SummoningDefence": 6
+	},
+	{
+		"Name": "Void melee helm",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/7/73/Void_melee_helm.png",
+		"StabDefence": 6,
+		"SlashDefence": 6,
+		"CrushDefence": 6,
+		"MagicDefence": 6,
+		"RangeDefence": 6,
+		"SummoningDefence": 6
+	},
+	{
+		"Name": "Void ranger helm",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/3/34/Void_ranger_helm.png",
+		"StabDefence": 6,
+		"SlashDefence": 6,
+		"CrushDefence": 6,
+		"MagicDefence": 6,
+		"RangeDefence": 6,
+		"SummoningDefence": 6
 	}
 ]

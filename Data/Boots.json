@@ -1,5 +1,16 @@
 [
 	{
+		"Name": "Bandos boots",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/0/0c/Bandos_boots.png",
+		"MagicAttack": -5,
+		"RangeAttack": -3,
+		"StabDefence": 17,
+		"SlashDefence": 18,
+		"CrushDefence": 19,
+		"SummoningDefence": 15,
+		"Prayer": 1
+	},
+	{
 		"Name": "Battle-mage boots",
 		"ImageUrl": "https://runescape.wiki/images/e/e7/Battle-mage_boots.png",
 		"MagicAttack": 2,
@@ -33,6 +44,17 @@
 		"CrushDefence": 5,
 		"MagicDefence": 3,
 		"SummoningDefence": 12
+	},
+	{
+		"Name": "Lucky Bandos boots",
+		"ImageUrl": "https://runescape.wiki/images/8/81/Lucky_Bandos_boots.png",
+		"MagicAttack": -5,
+		"RangeAttack": -3,
+		"StabDefence": 15,
+		"SlashDefence": 16,
+		"CrushDefence": 17,
+		"SummoningDefence": 13,
+		"Prayer": 1
 	},
 	{
 		"Name": "Pernix boots",
