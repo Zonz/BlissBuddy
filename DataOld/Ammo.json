@@ -1,0 +1,27 @@
+[
+	{
+		"Name": "Dragon arrows",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/f/f7/Dragon_arrow_5.png",
+		"RangedStrength": 60,
+	},
+	{
+		"Name": "Ruby bolts",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/1/13/Ruby_bolts_%28e%29_5.png",
+		"RangedStrength": 103,
+	},
+	{
+		"Name": "Onyx bolts",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d4/Onyx_bolts_%28e%29_5.png",
+		"RangedStrength": 120,
+	},
+	{
+		"Name": "Royal bolts",
+		"ImageUrl": "https://runescape.wiki/images/6/65/Royal_bolts_5.png",
+		"RangedStrength": 125,
+	},
+	{
+		"Name": "Hand cannon shot",
+		"ImageUrl": "https://runescape.wiki/images/archive/9/9f/20160502042615%21Hand_cannon_shot.png",
+		"RangedStrength": 150,
+	},
+]
