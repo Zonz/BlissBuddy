@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Win32;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +14,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace BlissBuddy
 {
@@ -397,6 +397,104 @@ namespace BlissBuddy
                 if (value >= 0)
                     return "+" + value;
                 return value.ToString();
+            }
+        }
+
+        private void LoadProfile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openDialog = new OpenFileDialog
+            {
+                DefaultExt = "txt",
+                Filter = "Text Files|*.txt|All Files|*.*",
+            };
+
+            bool? result = openDialog.ShowDialog();
+
+            if (result.HasValue && result.Value)
+            {
+                string[] contents = File.ReadAllLines(openDialog.FileName);
+                if (contents.Length < 11)
+                {
+                    MessageBox.Show(Path.GetFileName(openDialog.FileName) + " is not a valid equipment data file.", "Invalid file", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                    return;
+                }
+
+                currentStats = new Item();
+                currentHelm = getItem(contents[0], helmets, HelmImage);
+                currentCape = getItem(contents[1], capes, CapeImage);
+                currentAmulet = getItem(contents[2], amulets, AmuletImage);
+                currentAmmo = getItem(contents[3], ammo, AmmoImage);
+                currentMainHand = getItem(contents[4], mainHands, MainHandImage);
+                currentOffHand = getItem(contents[5], offHands, OffHandImage);
+                currentTorso = getItem(contents[6], torsos, TorsoImage);
+                currentLegs = getItem(contents[7], legs, LegsImage);
+                currentGloves = getItem(contents[8], gloves, GlovesImage);
+                currentBoots = getItem(contents[9], boots, BootsImage);
+                currentRing = getItem(contents[10], rings, RingImage);
+
+                if (currentMainHand.TwoHandWeapon)
+                {
+                    RemoveItem(currentOffHand);
+                    OffHandImage.Visibility = Visibility.Hidden;
+                    currentOffHand = new Item();
+                }
+
+                if (currentMainHand.RangedStrength > 0)
+                    RemoveItem(currentAmmo);
+
+                UpdateStats();
+            }
+
+            Item getItem(string name, Item[] database, CachedImage.Image image)
+            {
+                Item item = database.FirstOrDefault(i => i.Name == name);
+                if (string.IsNullOrEmpty(item.Name))
+                {
+                    image.Visibility = Visibility.Hidden;
+                    return new Item();
+                }
+                image.ImageUrl = item.ImageUrl;
+                image.ToolTip = item.Name;
+                image.Visibility = Visibility.Visible;
+                AddItem(item);
+                return item;
+            }
+        }
+
+        private void SaveProfile_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveDialog = new SaveFileDialog
+            {
+                DefaultExt = "txt",
+                Filter = "Text Files|*.txt|All Files|*.*",
+                AddExtension = true,
+                OverwritePrompt = true,
+            };
+
+            bool? result = saveDialog.ShowDialog();
+
+            if (result.HasValue && result.Value)
+            {
+                StringBuilder sb = new StringBuilder();
+                addItem(currentHelm, sb);
+                addItem(currentCape, sb);
+                addItem(currentAmulet, sb);
+                addItem(currentAmmo, sb);
+                addItem(currentMainHand, sb);
+                addItem(currentOffHand, sb);
+                addItem(currentTorso, sb);
+                addItem(currentLegs, sb);
+                addItem(currentGloves, sb);
+                addItem(currentBoots, sb);
+                addItem(currentRing, sb);
+                File.WriteAllText(saveDialog.FileName, sb.ToString());
+            }
+
+            void addItem(Item item, StringBuilder stringBuilder)
+            {
+                if (!string.IsNullOrEmpty(item.Name))
+                    stringBuilder.Append(item.Name);
+                stringBuilder.AppendLine();
             }
         }
     }

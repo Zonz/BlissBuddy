@@ -121,6 +121,8 @@
                     <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/9/9f/Ring_slot.png" MouseLeftButtonUp="RingLeftClick" MouseRightButtonUp="RingRightClick" Margin="167,235,33,15" />
                     <cachedImage:Image Name="RingImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="RingLeftClick" MouseRightButtonUp="RingRightClick" Margin="167,235,33,15" />
                 </Grid>
+                <Button Content="Load Profile" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="118" Height="28" Click="LoadProfile_Click"/>
+                <Button Content="Save Profile" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,143,10" VerticalAlignment="Bottom" Width="118" Height="28" Click="SaveProfile_Click"/>
             </Grid>
         </Border>
     </Grid>
