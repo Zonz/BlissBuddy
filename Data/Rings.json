@@ -1,5 +1,11 @@
 [
 	{
+		"Name": "Archer's ring",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d6/Archers_ring.png",
+		"RangeAttack": 4,
+		"RangeDefence": 4
+	},
+	{
 		"Name": "Archer's ring (i)",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/b/bd/Archers_ring_%28i%29.png",
 		"RangeAttack": 8,
@@ -18,6 +24,10 @@
 		"Strength": 8
 	},
 	{
+		"Name": "Ring of wealth",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c7/Ring_of_wealth.png"
+	},
+	{
 		"Name": "Ring of wealth (i)",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/1c/Ring_of_wealth_%28i%29.png",
 		"StabAttack": 4,
@@ -31,6 +41,12 @@
 		"MagicDefence": 4,
 		"RangeDefence": 4,
 		"Strength": 4
+	},
+	{
+		"Name": "Seers ring",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/9/90/Seers_ring.png",
+		"MagicAttack": 4,
+		"MagicDefence": 4
 	},
 	{
 		"Name": "Seers ring (i)",

@@ -61,6 +61,17 @@
 		"HealthBonus": 25
 	},
 	{
+		"Name": "Third-age vambraces",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/8/8d/3rd_age_vambraces.png",
+		"MagicAttack": -11,
+		"RangeAttack": 11,
+		"StabDefence": 6,
+		"SlashDefence": 5,
+		"CrushDefence": 7,
+		"MagicDefence": 9,
+		"SummoningDefence": 5,
+	},
+	{
 		"Name": "Torva gloves",
 		"ImageUrl": "https://runescape.wiki/images/2/2d/Torva_gloves.png",
 		"StabAttack": 13,

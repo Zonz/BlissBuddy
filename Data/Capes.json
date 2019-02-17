@@ -45,6 +45,16 @@
 		"Prayer": 10
 	},
 	{
+		"Name": "Obsidian cape",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/e/ea/Obsidian_cape.png",
+		"StabDefence": 9,
+		"SlashDefence": 9,
+		"CrushDefence": 9,
+		"MagicDefence": 9,
+		"RangeDefence": 9,
+		"SummoningDefence": 9
+	},
+	{
 		"Name": "Skill cape",
 		"ImageUrl": "https://runescape.wiki/images/archive/f/ff/20150323022619%21Constitution_cape_%28t%29.png",
 		"StabDefence": 9,

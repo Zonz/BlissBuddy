@@ -254,6 +254,20 @@
 		"AbsorbRanged": 11
 	},
 	{
+		"Name": "Toktz-ket-xil",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/b/b4/Toktz-ket-xil.png",
+		"MagicAttack": -12,
+		"RangeAttack": -8,
+		"StabDefence": 40,
+		"SlashDefence": 42,
+		"CrushDefence": 38,
+		"RangeDefence": 65,
+		"SummoningDefence": 60,
+		"AbsorbMelee": 5,
+		"AbsorbRanged": 11,
+		"Strength": 5
+	},
+	{
 		"Name": "Unholy book",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/29/Unholy_book.png",
 		"StabAttack": 8,

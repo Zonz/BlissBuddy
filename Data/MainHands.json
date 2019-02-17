@@ -231,20 +231,6 @@
 		"Strength": 196
 	},
 	{
-		"Name": "Third-age druidic staff",
-		"ImageUrl": "https://runescape.wiki/images/archive/4/44/20160502084024%21Third-age_druidic_staff.png",
-		"StabAttack": 10,
-		"SlashAttack": -1,
-		"CrushAttack": 50,
-		"MagicAttack": 15,
-		"StabDefence": 3,
-		"SlashDefence": 5,
-		"CrushDefence": 2,
-		"MagicDefence": 15,
-		"Strength": 65,
-		"Prayer": 7
-	},
-	{
 		"Name": "Saradomin sword",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/5f/Saradomin_sword.png",
 		"SlashAttack": 82,
@@ -259,6 +245,27 @@
 		"SlashAttack": -4,
 		"CrushAttack": 123,
 		"Strength": 114
+	},
+	{
+		"Name": "Third-age druidic staff",
+		"ImageUrl": "https://runescape.wiki/images/archive/4/44/20160502084024%21Third-age_druidic_staff.png",
+		"StabAttack": 10,
+		"SlashAttack": -1,
+		"CrushAttack": 50,
+		"MagicAttack": 15,
+		"StabDefence": 3,
+		"SlashDefence": 5,
+		"CrushDefence": 2,
+		"MagicDefence": 15,
+		"Strength": 65,
+		"Prayer": 7
+	},
+	{
+		"Name": "Tzhaar-ket-om",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/5/53/Tzhaar-ket-om.png",
+		"CrushAttack": 80,
+		"MagicAttack": -4,
+		"Strength": 85
 	},
 	{
 		"Name": "Vesta's longsword",
