@@ -476,25 +476,25 @@ namespace BlissBuddy
             if (result.HasValue && result.Value)
             {
                 StringBuilder sb = new StringBuilder();
-                addItem(currentHelm, sb);
-                addItem(currentCape, sb);
-                addItem(currentAmulet, sb);
-                addItem(currentAmmo, sb);
-                addItem(currentMainHand, sb);
-                addItem(currentOffHand, sb);
-                addItem(currentTorso, sb);
-                addItem(currentLegs, sb);
-                addItem(currentGloves, sb);
-                addItem(currentBoots, sb);
-                addItem(currentRing, sb);
+                addItem(currentHelm);
+                addItem(currentCape);
+                addItem(currentAmulet);
+                addItem(currentAmmo);
+                addItem(currentMainHand);
+                addItem(currentOffHand);
+                addItem(currentTorso);
+                addItem(currentLegs);
+                addItem(currentGloves);
+                addItem(currentBoots);
+                addItem(currentRing);
                 File.WriteAllText(saveDialog.FileName, sb.ToString());
-            }
 
-            void addItem(Item item, StringBuilder stringBuilder)
-            {
-                if (!string.IsNullOrEmpty(item.Name))
-                    stringBuilder.Append(item.Name);
-                stringBuilder.AppendLine();
+                void addItem(Item item)
+                {
+                    if (!string.IsNullOrEmpty(item.Name))
+                        sb.Append(item.Name);
+                    sb.AppendLine();
+                }
             }
         }
     }

@@ -1,5 +1,10 @@
 [
 	{
+		"Name": "Bolt rack",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/de/Bolt_rack_5.png",
+		"RangedStrength": 55
+	},
+	{
 		"Name": "Dragon arrows",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/f/f7/Dragon_arrow_5.png",
 		"RangedStrength": 60

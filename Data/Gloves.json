@@ -48,6 +48,12 @@
 		"Strength": 9
 	},
 	{
+		"Name": "Infinity gloves",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c2/Infinity_gloves.png",
+		"MagicAttack": 5,
+		"MagicDefence": 5
+	},
+	{
 		"Name": "Pernix gloves",
 		"ImageUrl": "https://runescape.wiki/images/4/41/Pernix_gloves.png",
 		"MagicAttack": -10,
@@ -69,7 +75,7 @@
 		"SlashDefence": 5,
 		"CrushDefence": 7,
 		"MagicDefence": 9,
-		"SummoningDefence": 5,
+		"SummoningDefence": 5
 	},
 	{
 		"Name": "Torva gloves",

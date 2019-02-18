@@ -53,6 +53,20 @@
 		"Prayer": 2
 	},
 	{
+		"Name": "Ahrim's staff",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/3/30/Ahrim%27s_staff.png",
+		"TwoHandWeapon": true,
+		"StabAttack": 12,
+		"SlashAttack": -1,
+		"CrushAttack": 65,
+		"MagicAttack": 15,
+		"StabDefence": 3,
+		"SlashDefence": 5,
+		"CrushDefence": 2,
+		"MagicDefence": 15,
+		"Strength": 68
+	},
+	{
 		"Name": "Ascension crossbow",
 		"ImageUrl": "https://runescape.wiki/images/5/54/Ascension_crossbow.png",
 		"RangeAttack": 156
@@ -111,6 +125,17 @@
 		"RangeAttack": 95
 	},
 	{
+		"Name": "Dharok's greataxe",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/6/6b/Dharok%27s_greataxe.png",
+		"TwoHandWeapon": true,
+		"StabAttack": -4,
+		"SlashAttack": 103,
+		"CrushAttack": 95,
+		"MagicAttack": -4,
+		"RangeDefence": -1,
+		"Strength": 105
+	},
+	{
 		"Name": "Dragon claws",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/aa/Dragon_claws.png",
 		"TwoHandWeapon": true,
@@ -163,10 +188,28 @@
 		"Prayer": 8
 	},
 	{
+		"Name": "Guthan's warspear",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/2/2d/Guthan%27s_warspear.png",
+		"TwoHandWeapon": true,
+		"StabAttack": 75,
+		"SlashAttack": 75,
+		"CrushAttack": 75,
+		"StabDefence": 7,
+		"SlashDefence": 7,
+		"CrushDefence": 7,
+		"Strength": 75
+	},
+	{
 		"Name": "Hand cannon",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/bb/20140502072232%21Hand_cannon.png",
 		"TwoHandWeapon": true,
 		"RangeAttack": 90
+	},
+	{
+		"Name": "Karil's crossbow",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/b/bd/Karil%27s_crossbow.png",
+		"TwoHandWeapon": true,
+		"RangeAttack": 84
 	},
 	{
 		"Name": "Lucky abyssal whip",
@@ -261,11 +304,31 @@
 		"Prayer": 7
 	},
 	{
+		"Name": "Torag's hammers",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/9/94/Torag%27s_hammers.png",
+		"TwoHandWeapon": true,
+		"StabAttack": -4,
+		"SlashAttack": -4,
+		"CrushAttack": 85,
+		"MagicAttack": -4,
+		"Strength": 72
+	},
+	{
 		"Name": "Tzhaar-ket-om",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/53/Tzhaar-ket-om.png",
 		"CrushAttack": 80,
 		"MagicAttack": -4,
 		"Strength": 85
+	},
+	{
+		"Name": "Verac's flail",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d1/Verac%27s_flail.png",
+		"TwoHandWeapon": true,
+		"StabAttack": 68,
+		"SlashAttack": -2,
+		"CrushAttack": 82,
+		"Strength": 72,
+		"Prayer": 6
 	},
 	{
 		"Name": "Vesta's longsword",

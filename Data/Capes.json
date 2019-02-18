@@ -1,5 +1,12 @@
 [
 	{
+		"Name": "Ava's accumulator",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/9/95/Ava%27s_accumulator.png",
+		"RangeAttack": 4,
+		"SlashDefence": 1,
+		"MagicDefence": 4
+	},
+	{
 		"Name": "Completionist cape",
 		"ImageUrl": "https://runescape.wiki/images/f/f5/Completionist_cape.png",
 		"StabAttack": 10,

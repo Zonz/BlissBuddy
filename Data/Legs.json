@@ -1,5 +1,18 @@
 [
 	{
+		"Name": "Ahrim's robe skirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/6/6d/Ahrim%27s_robeskirt.png",
+		"MagicAttack": 22,
+		"RangeAttack": -7,
+		"StabDefence": 33,
+		"SlashDefence": 30,
+		"CrushDefence": 36,
+		"MagicDefence": 22,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 7,
+		"AbsorbMagic": 3
+	},
+	{
 		"Name": "Armadyl chainskirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/55/Armadyl_chainskirt.png",
 		"StabAttack": -6,
@@ -49,6 +62,20 @@
 		"Strength": 3
 	},
 	{
+		"Name": "Dharok's platelegs",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/8/83/Dharok%27s_platelegs.png",
+		"MagicAttack": -21,
+		"RangeAttack": -7,
+		"StabDefence": 85,
+		"SlashDefence": 82,
+		"CrushDefence": 83,
+		"MagicDefence": -4,
+		"RangeDefence": 92,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 3,
+		"AbsorbRanged": 7
+	},
+	{
 		"Name": "Enchanted robe",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d3/Enchanted_robe.png",
 		"MagicAttack": 15,
@@ -70,6 +97,43 @@
 		"SummoningDefence": 30,
 		"AbsorbMelee": 5,
 		"AbsorbMagic": 12
+	},
+	{
+		"Name": "Guthan's chainskirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/2/24/Guthan%27s_chainskirt.png",
+		"MagicAttack": -14,
+		"RangeAttack": -7,
+		"StabDefence": 75,
+		"SlashDefence": 72,
+		"CrushDefence": 73,
+		"MagicDefence": -4,
+		"RangeDefence": 82,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 3,
+		"AbsorbRanged": 7
+	},
+	{
+		"Name": "Infinity bottoms",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/b/b7/Infinity_bottoms.png",
+		"MagicAttack": 17,
+		"MagicDefence": 17,
+		"SummoningDefence": 17,
+		"AbsorbMelee": 2,
+		"AbsorbMagic": 1
+	},
+	{
+		"Name": "Karil's skirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/e/e1/Karil%27s_leatherskirt.png",
+		"MagicAttack": -10,
+		"RangeAttack": 17,
+		"StabDefence": 26,
+		"SlashDefence": 20,
+		"CrushDefence": 28,
+		"MagicDefence": 35,
+		"RangeDefence": 33,
+		"SummoningDefence": 30,
+		"AbsorbMagic": 7,
+		"AbsorbRanged": 3
 	},
 	{
 		"Name": "Lucky Armadyl chainskirt",
@@ -106,6 +170,20 @@
 		"Prayer": 1
 	},
 	{
+		"Name": "Morrigan's leather chaps",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/a/ae/Morrigan%27s_leather_chaps.png",
+		"MagicAttack": -10,
+		"RangeAttack": 23,
+		"StabDefence": 35,
+		"SlashDefence": 29,
+		"CrushDefence": 37,
+		"MagicDefence": 46,
+		"RangeDefence": 35,
+		"SummoningDefence": 30,
+		"AbsorbMagic": 8,
+		"AbsorbRanged": 4
+	},
+	{
 		"Name": "Pernix chaps",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/59/20120905194346%21Pernix_chaps.png",
 		"StabAttack": -6,
@@ -123,6 +201,24 @@
 		"AbsorbRanged": 4,
 		"Prayer": 1,
 		"HealthBonus": 134
+	},
+	{
+		"Name": "Statius's platelegs",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/9/98/Statius%27s_platelegs.png",
+		"StabAttack": 3,
+		"SlashAttack": 3,
+		"CrushAttack": 5,
+		"MagicAttack": -21,
+		"RangeAttack": -7,
+		"StabDefence": 110,
+		"SlashDefence": 106,
+		"CrushDefence": 97,
+		"MagicDefence": -4,
+		"RangeDefence": 121,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 4,
+		"AbsorbRanged": 8,
+		"Strength": 3
 	},
 	{
 		"Name": "Third-age druidic robe",
@@ -170,6 +266,20 @@
 		"AbsorbMagic": 2
 	},
 	{
+		"Name": "Torag's platelegs",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/3/3b/Torag%27s_platelegs.png",
+		"MagicAttack": -21,
+		"RangeAttack": -7,
+		"StabDefence": 85,
+		"SlashDefence": 82,
+		"CrushDefence": 83,
+		"MagicDefence": -4,
+		"RangeDefence": 92,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 3,
+		"AbsorbRanged": 7
+	},
+	{
 		"Name": "Torva platelegs",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b9/20120307182926%21Torva_platelegs.png",
 		"MagicAttack": -21,
@@ -213,6 +323,38 @@
 		"Strength": 3
 	},
 	{
+		"Name": "Verac's plateskirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/8/8e/Verac%27s_plateskirt.png",
+		"MagicAttack": -21,
+		"RangeAttack": -7,
+		"StabDefence": 85,
+		"SlashDefence": 82,
+		"CrushDefence": 83,
+		"RangeDefence": 84,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 3,
+		"AbsorbRanged": 7,
+		"Prayer": 4
+	},
+	{
+		"Name": "Vesta's plateskirt",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/4/4a/Vesta%27s_plateskirt.png",
+		"StabAttack": 3,
+		"SlashAttack": 5,
+		"CrushAttack": 5,
+		"MagicAttack": -17,
+		"RangeAttack": -4,
+		"StabDefence": 86,
+		"SlashDefence": 100,
+		"CrushDefence": 112,
+		"MagicDefence": -2,
+		"RangeDefence": 118,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 4,
+		"AbsorbRanged": 8,
+		"Strength": 3
+	},
+	{
 		"Name": "Virtus robe legs",
 		"ImageUrl": "https://runescape.wiki/images/archive/2/2b/20120905213737%21Virtus_robe_legs.png",
 		"MagicAttack": 26,
@@ -236,5 +378,18 @@
 		"MagicDefence": 30,
 		"RangeDefence": 30,
 		"SummoningDefence": 15
+	},
+	{
+		"Name": "Zuriel's robe bottom",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/4/44/Zuriel%27s_robe_bottom.png",
+		"MagicAttack": 25,
+		"RangeAttack": -7,
+		"StabDefence": 38,
+		"SlashDefence": 35,
+		"CrushDefence": 44,
+		"MagicDefence": 24,
+		"SummoningDefence": 30,
+		"AbsorbMelee": 8,
+		"AbsorbMagic": 4
 	}
 ]

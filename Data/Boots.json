@@ -46,6 +46,13 @@
 		"SummoningDefence": 12
 	},
 	{
+		"Name": "Infinity boots",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d8/Infinity_boots.png",
+		"MagicAttack": 5,
+		"MagicDefence": 5,
+		"SummoningDefence": 5
+	},
+	{
 		"Name": "Lucky Bandos boots",
 		"ImageUrl": "https://runescape.wiki/images/8/81/Lucky_Bandos_boots.png",
 		"MagicAttack": -5,
