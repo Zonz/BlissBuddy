@@ -110,7 +110,7 @@
                     <cachedImage:Image Name="MainHandImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="MainHandLeftClick" MouseRightButtonUp="MainHandRightClick" Margin="32,125,168,125" />
                     <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/d/d9/Shield_slot.png" MouseLeftButtonUp="OffHandLeftClick" MouseRightButtonUp="OffHandRightClick" Margin="167,125,33,125" />
                     <cachedImage:Image Name="OffHandImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="OffHandLeftClick" MouseRightButtonUp="OffHandRightClick" Margin="167,125,33,125" />
-                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/3/33/Torso_slot.png" MouseLeftButtonUp="TorsoLeftClick" MouseRightButtonUp="TorsoRightClick" Margin="100,125,100,125" />
+                    <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/9/9f/Body_slot.png" MouseLeftButtonUp="TorsoLeftClick" MouseRightButtonUp="TorsoRightClick" Margin="100,125,100,125" />
                     <cachedImage:Image Name="TorsoImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="TorsoLeftClick" MouseRightButtonUp="TorsoRightClick" Margin="100,125,100,125" />
                     <cachedImage:Image Width="50" Height="50" ImageUrl="https://oldschool.runescape.wiki/images/2/25/Legs_slot.png" MouseLeftButtonUp="LegsLeftClick" MouseRightButtonUp="LegsRightClick" Margin="100,180,100,70" />
                     <cachedImage:Image Name="LegsImage" Visibility="Hidden" Width="50" Height="50" MouseLeftButtonUp="LegsLeftClick" MouseRightButtonUp="LegsRightClick" Margin="100,180,100,70" />

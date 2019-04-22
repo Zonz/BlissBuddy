@@ -605,13 +605,47 @@
 		"Name": "Summoning",
 		"ExperienceMethods": [
 			{
+				"Name": "Gold Charm",
 				"IterationText": "Pouches",
 				"BaseExpText": "pouch",
 				"ExperienceTable": {
-					"Barker Toad (Gold)": 6612,
-					"Unicorn Stallion (Green)": 11734,
-					"Steel Titan (Crimson)": 33075,
-					"Geyser Titan (Blue)": 59523
+					"Spirit wolf": 364.8,
+					"Granite crab": 2401.6,
+					"Bull ant": 4012.8,
+					"Spirit terrorbird": 5198.4,
+					"Barker toad": 6612
+				}
+			},
+			{
+				"Name": "Green Charm",
+				"IterationText": "Pouches",
+				"BaseExpText": "pouch",
+				"ExperienceTable": {
+					"Compost mound": 3784.8,
+					"Beaver": 4377.6,
+					"Ibis": 7508.8,
+					"Hydra": 10700.8,
+					"Unicorn stallion": 11734.4
+				}
+			},
+			{
+				"Name": "Crimson Charm",
+				"IterationText": "Pouches",
+				"BaseExpText": "pouch",
+				"ExperienceTable": {
+					"Smoke devil": 20368,
+					"Granite lobster": 24745.6,
+					"Steel titan": 33075.2
+				}
+			},
+			{
+				"Name": "Blue Charm",
+				"IterationText": "Pouches",
+				"BaseExpText": "pouch",
+				"ExperienceTable": {
+					"Karamja overlord": 38790.4,
+					"Fire titan": 52835.2,
+					"Geyser titan": 59523.2
 				}
 			}
 		]

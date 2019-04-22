@@ -2,6 +2,7 @@
 	{
 		"Name": "Advanced lucky arcane spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/ba/20160502051500%21Lucky_arcane_spirit_shield.png",
+		"Category": "Spirit shield",
 		"MagicAttack": 22,
 		"StabDefence": 57,
 		"SlashDefence": 60,
@@ -14,6 +15,7 @@
 	{
 		"Name": "Advanced lucky divine spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b7/20160502051532%21Lucky_divine_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 69,
 		"SlashDefence": 71,
 		"CrushDefence": 82,
@@ -25,6 +27,7 @@
 	{
 		"Name": "Advanced lucky elysian spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/0/0a/20160502051547%21Lucky_elysian_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 69,
 		"SlashDefence": 71,
 		"CrushDefence": 82,
@@ -36,6 +39,7 @@
 	{
 		"Name": "Advanced lucky spectral spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b4/20160502051613%21Lucky_spectral_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 57,
 		"SlashDefence": 60,
 		"CrushDefence": 80,
@@ -56,6 +60,7 @@
 	{
 		"Name": "Arcane spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/f/f0/20160502005417%21Arcane_spirit_shield.png",
+		"Category": "Spirit shield",
 		"MagicAttack": 20,
 		"StabDefence": 53,
 		"SlashDefence": 55,
@@ -68,6 +73,7 @@
 	{
 		"Name": "Chaotic kiteshield",
 		"ImageUrl": "https://runescape.wiki/images/9/9e/Chaotic_kiteshield.png",
+		"Category": "Dungeoneering shield",
 		"StabAttack": 2,
 		"CrushAttack": 4,
 		"MagicAttack": -15,
@@ -82,6 +88,7 @@
 	{
 		"Name": "Divine spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b9/20160502030206%21Divine_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 63,
 		"SlashDefence": 65,
 		"CrushDefence": 75,
@@ -136,6 +143,7 @@
 	{
 		"Name": "Eagle-eye kiteshield",
 		"ImageUrl": "https://runescape.wiki/images/2/29/Eagle-eye_kiteshield.png",
+		"Category": "Dungeoneering shield",
 		"StabAttack": -5,
 		"SlashAttack": -5,
 		"CrushAttack": -5,
@@ -151,6 +159,7 @@
 	{
 		"Name": "Elysian spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/53/20160502032239%21Elysian_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 63,
 		"SlashDefence": 65,
 		"CrushDefence": 75,
@@ -160,8 +169,21 @@
 		"Prayer": 3
 	},
 	{
+		"Name": "Spectral spirit shield",
+		"ImageUrl": "https://runescape.wiki/images/archive/d/d8/20160502075641%21Spectral_spirit_shield.png",
+		"Category": "Spirit shield",
+		"StabDefence": 53,
+		"SlashDefence": 55,
+		"CrushDefence": 73,
+		"MagicDefence": 30,
+		"RangeDefence": 52,
+		"SummoningDefence": 65,
+		"Prayer": 3
+	},
+	{
 		"Name": "Farseer kiteshield",
 		"ImageUrl": "https://runescape.wiki/images/a/a4/Farseer_kiteshield.png",
+		"Category": "Dungeoneering shield",
 		"MagicAttack": 17,
 		"RangeAttack": -15,
 		"StabDefence": 55,
@@ -175,6 +197,7 @@
 	{
 		"Name": "Lucky arcane spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/ba/20160502051500%21Lucky_arcane_spirit_shield.png",
+		"Category": "Spirit shield",
 		"MagicAttack": 18,
 		"StabDefence": 47,
 		"SlashDefence": 49,
@@ -187,6 +210,7 @@
 	{
 		"Name": "Lucky divine spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b7/20160502051532%21Lucky_divine_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 56,
 		"SlashDefence": 58,
 		"CrushDefence": 67,
@@ -198,6 +222,7 @@
 	{
 		"Name": "Lucky elysian spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/0/0a/20160502051547%21Lucky_elysian_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 56,
 		"SlashDefence": 58,
 		"CrushDefence": 67,
@@ -209,6 +234,7 @@
 	{
 		"Name": "Lucky spectral spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b4/20160502051613%21Lucky_spectral_spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 47,
 		"SlashDefence": 49,
 		"CrushDefence": 65,
@@ -218,19 +244,9 @@
 		"Prayer": 2
 	},
 	{
-		"Name": "Spectral spirit shield",
-		"ImageUrl": "https://runescape.wiki/images/archive/d/d8/20160502075641%21Spectral_spirit_shield.png",
-		"StabDefence": 53,
-		"SlashDefence": 55,
-		"CrushDefence": 73,
-		"MagicDefence": 30,
-		"RangeDefence": 52,
-		"SummoningDefence": 65,
-		"Prayer": 3
-	},
-	{
 		"Name": "Spirit shield",
 		"ImageUrl": "https://runescape.wiki/images/archive/e/e4/20160502080019%21Spirit_shield.png",
+		"Category": "Spirit shield",
 		"StabDefence": 39,
 		"SlashDefence": 41,
 		"CrushDefence": 50,

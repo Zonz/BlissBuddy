@@ -7,6 +7,8 @@ namespace BlissBuddy
 
         public string ImageUrl;
 
+        public string Category;
+
         public bool TwoHandWeapon;
 
         public int StabAttack;

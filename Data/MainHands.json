@@ -2,24 +2,40 @@
 	{
 		"Name": "Abyssal whip",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/5c/Abyssal_whip.png",
+		"Category": "Abyssal whip",
 		"SlashAttack": 82,
 		"Strength": 82
 	},
 	{
 		"Name": "Abyssal vine whip",
 		"ImageUrl": "https://runescape.wiki/images/3/3d/Abyssal_vine_whip.png",
+		"Category": "Abyssal whip",
 		"SlashAttack": 86,
 		"Strength": 84
 	},
 	{
 		"Name": "Advanced lucky abyssal whip",
 		"ImageUrl": "https://runescape.wiki/images/8/82/Lucky_abyssal_whip.png",
+		"Category": "Abyssal whip",
 		"SlashAttack": 90,
 		"Strength": 90
 	},
 	{
+		"Name": "Advanced lucky Dragon 2h sword",
+		"ImageUrl": "https://runescape.wiki/images/archive/e/e5/20121121001752%21Dragon_2h_sword.png",
+		"Category": "Dragon 2h sword",
+		"TwoHandWeapon": true,
+		"StabAttack": -4,
+		"SlashAttack": 101,
+		"CrushAttack": 88,
+		"MagicAttack": -4,
+		"RangeDefence": -1,
+		"Strength": 102
+	},
+	{
 		"Name": "Advanced lucky dragon claws",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/aa/Dragon_claws.png",
+		"Category": "Dragon claws",
 		"TwoHandWeapon": true,
 		"StabAttack": 45,
 		"SlashAttack": 62,
@@ -30,8 +46,39 @@
 		"Strength": 61
 	},
 	{
-		"Name": "Advanced lucky godsword",
+		"Name": "Advanced lucky Armadyl godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/c/c7/20120907022745%21Lucky_Armadyl_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 145,
+		"CrushAttack": 88,
+		"Strength": 145,
+		"Prayer": 8
+	},
+	{
+		"Name": "Advanced lucky Bandos godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/3/32/20120907022736%21Lucky_Bandos_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 145,
+		"CrushAttack": 88,
+		"Strength": 145,
+		"Prayer": 8
+	},
+	{
+		"Name": "Advanced lucky Saradomin godsword",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/53/20120907022754%21Lucky_Saradomin_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 145,
+		"CrushAttack": 88,
+		"Strength": 145,
+		"Prayer": 8
+	},
+	{
+		"Name": "Advanced lucky Zamorak godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/e/e0/20120907022729%21Lucky_Zamorak_godsword.png",
+		"Category": "Godsword",
 		"TwoHandWeapon": true,
 		"SlashAttack": 145,
 		"CrushAttack": 88,
@@ -41,6 +88,7 @@
 	{
 		"Name": "Advanced lucky Zamorakian spear",
 		"ImageUrl": "https://runescape.wiki/images/archive/7/70/20120907022808%21Lucky_Zamorakian_spear.png",
+		"Category": "Zamorakian spear",
 		"TwoHandWeapon": true,
 		"StabAttack": 93,
 		"SlashAttack": 71,
@@ -55,6 +103,7 @@
 	{
 		"Name": "Ahrim's staff",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/30/Ahrim%27s_staff.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"StabAttack": 12,
 		"SlashAttack": -1,
@@ -74,11 +123,13 @@
 	{
 		"Name": "Chaotic crossbow",
 		"ImageUrl": "https://runescape.wiki/images/archive/6/61/20130813101411%21Chaotic_crossbow.png",
+		"Category": "Chaotic",
 		"RangeAttack": 120
 	},
 	{
 		"Name": "Chaotic longsword",
 		"ImageUrl": "https://runescape.wiki/images/archive/8/87/20110726223258%21Chaotic_longsword.png",
+		"Category": "Chaotic",
 		"StabAttack": 107,
 		"SlashAttack": 124,
 		"CrushAttack": -2,
@@ -89,6 +140,7 @@
 	{
 		"Name": "Chaotic maul",
 		"ImageUrl": "https://runescape.wiki/images/archive/3/33/20160502021505%21Chaotic_maul.png",
+		"Category": "Chaotic",
 		"TwoHandWeapon": true,
 		"StabAttack": -4,
 		"SlashAttack": -4,
@@ -98,6 +150,7 @@
 	{
 		"Name": "Chaotic rapier",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/52/20160306171715%21Chaotic_rapier.png",
+		"Category": "Chaotic",
 		"StabAttack": 94,
 		"SlashAttack": 78,
 		"CrushAttack": -2,
@@ -108,6 +161,7 @@
 	{
 		"Name": "Chaotic staff",
 		"ImageUrl": "https://runescape.wiki/images/e/ea/Chaotic_staff.png",
+		"Category": "Chaotic",
 		"SlashAttack": -1,
 		"CrushAttack": 65,
 		"MagicAttack": 18,
@@ -127,6 +181,7 @@
 	{
 		"Name": "Dharok's greataxe",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/6/6b/Dharok%27s_greataxe.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"StabAttack": -4,
 		"SlashAttack": 103,
@@ -136,8 +191,21 @@
 		"Strength": 105
 	},
 	{
+		"Name": "Dragon 2h sword",
+		"ImageUrl": "https://runescape.wiki/images/archive/e/e5/20121121001752%21Dragon_2h_sword.png",
+		"Category": "Dragon 2h sword",
+		"TwoHandWeapon": true,
+		"StabAttack": -4,
+		"SlashAttack": 92,
+		"CrushAttack": 80,
+		"MagicAttack": -4,
+		"RangeDefence": -1,
+		"Strength": 93
+	},
+	{
 		"Name": "Dragon claws",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/aa/Dragon_claws.png",
+		"Category": "Dragon claws",
 		"TwoHandWeapon": true,
 		"StabAttack": 41,
 		"SlashAttack": 57,
@@ -150,6 +218,7 @@
 	{
 		"Name": "Drygore longsword",
 		"ImageUrl": "https://runescape.wiki/images/archive/9/98/20160502031150%21Drygore_longsword.png",
+		"Category": "Drygore",
 		"StabAttack": 128,
 		"SlashAttack": 149,
 		"CrushAttack": -2,
@@ -160,6 +229,7 @@
 	{
 		"Name": "Drygore mace",
 		"ImageUrl": "https://runescape.wiki/images/archive/8/8e/20160502031216%21Drygore_mace.png",
+		"Category": "Drygore",
 		"StabAttack": 128,
 		"SlashAttack": -2,
 		"CrushAttack": 149,
@@ -171,6 +241,7 @@
 	{
 		"Name": "Drygore rapier",
 		"ImageUrl": "https://runescape.wiki/images/6/6f/Drygore_rapier.png",
+		"Category": "Drygore",
 		"StabAttack": 107,
 		"SlashAttack": 89,
 		"CrushAttack": -2,
@@ -179,8 +250,39 @@
 		"Strength": 119
 	},
 	{
-		"Name": "Godsword",
+		"Name": "Armadyl godsword",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/archive/f/fd/20131109025838%21Armadyl_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 132,
+		"CrushAttack": 80,
+		"Strength": 132,
+		"Prayer": 8
+	},
+	{
+		"Name": "Bandos godsword",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/archive/6/6c/20131109025838%21Bandos_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 132,
+		"CrushAttack": 80,
+		"Strength": 132,
+		"Prayer": 8
+	},
+	{
+		"Name": "Saradomin godsword",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/6/66/Saradomin_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 132,
+		"CrushAttack": 80,
+		"Strength": 132,
+		"Prayer": 8
+	},
+	{
+		"Name": "Zamorak godsword",
+		"ImageUrl": "https://oldschool.runescape.wiki/images/archive/b/b1/20160706224143%21Zamorak_godsword.png",
+		"Category": "Godsword",
 		"TwoHandWeapon": true,
 		"SlashAttack": 132,
 		"CrushAttack": 80,
@@ -190,6 +292,7 @@
 	{
 		"Name": "Guthan's warspear",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/2d/Guthan%27s_warspear.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"StabAttack": 75,
 		"SlashAttack": 75,
@@ -208,18 +311,33 @@
 	{
 		"Name": "Karil's crossbow",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/b/bd/Karil%27s_crossbow.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"RangeAttack": 84
 	},
 	{
 		"Name": "Lucky abyssal whip",
 		"ImageUrl": "https://runescape.wiki/images/8/82/Lucky_abyssal_whip.png",
+		"Category": "Abyssal whip",
 		"SlashAttack": 73,
 		"Strength": 73
 	},
 	{
+		"Name": "Lucky dragon 2h sword",
+		"ImageUrl": "https://runescape.wiki/images/archive/d/d8/20121119223918%21Lucky_dragon_2h_sword.png",
+		"Category": "Dragon 2h sword",
+		"TwoHandWeapon": true,
+		"StabAttack": -4,
+		"SlashAttack": 82,
+		"CrushAttack": 72,
+		"MagicAttack": -4,
+		"RangeDefence": -1,
+		"Strength": 83
+	},
+	{
 		"Name": "Lucky dragon claws",
-		"ImageUrl": "https://oldschool.runescape.wiki/images/a/aa/Dragon_claws.png",
+		"ImageUrl": "https://runescape.wiki/images/archive/0/01/20130426094039%21Lucky_dragon_claws.png",
+		"Category": "Dragon claws",
 		"TwoHandWeapon": true,
 		"StabAttack": 36,
 		"SlashAttack": 51,
@@ -230,8 +348,39 @@
 		"Strength": 50
 	},
 	{
-		"Name": "Lucky godsword",
+		"Name": "Lucky Armadyl godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/c/c7/20120907022745%21Lucky_Armadyl_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 118,
+		"CrushAttack": 72,
+		"Strength": 118,
+		"Prayer": 7
+	},
+	{
+		"Name": "Lucky Bandos godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/3/32/20120907022736%21Lucky_Bandos_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 118,
+		"CrushAttack": 72,
+		"Strength": 118,
+		"Prayer": 7
+	},
+	{
+		"Name": "Lucky Saradomin godsword",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/53/20120907022754%21Lucky_Saradomin_godsword.png",
+		"Category": "Godsword",
+		"TwoHandWeapon": true,
+		"SlashAttack": 118,
+		"CrushAttack": 72,
+		"Strength": 118,
+		"Prayer": 7
+	},
+	{
+		"Name": "Lucky Zamorak godsword",
+		"ImageUrl": "https://runescape.wiki/images/archive/e/e0/20120907022729%21Lucky_Zamorak_godsword.png",
+		"Category": "Godsword",
 		"TwoHandWeapon": true,
 		"SlashAttack": 118,
 		"CrushAttack": 72,
@@ -241,6 +390,7 @@
 	{
 		"Name": "Lucky Zamorakian spear",
 		"ImageUrl": "https://runescape.wiki/images/archive/7/70/20120907022808%21Lucky_Zamorakian_spear.png",
+		"Category": "Zamorakian spear",
 		"TwoHandWeapon": true,
 		"StabAttack": 76,
 		"SlashAttack": 58,
@@ -255,12 +405,14 @@
 	{
 		"Name": "Morrigan's javelin",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/3b/Morrigan%27s_javelin.png",
+		"Category": "PvP",
 		"RangeAttack": 105,
 		"RangedStrength": 145
 	},
 	{
 		"Name": "Morrigan's throwing axe",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/93/Morrigan%27s_throwing_axe.png",
+		"Category": "PvP",
 		"RangeAttack": 93,
 		"RangedStrength": 117
 	},
@@ -284,6 +436,7 @@
 	{
 		"Name": "Statius's warhammer",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/archive/4/41/20180906104321%21Statius%27s_warhammer.png",
+		"Category": "PvP",
 		"StabAttack": -4,
 		"SlashAttack": -4,
 		"CrushAttack": 123,
@@ -306,6 +459,7 @@
 	{
 		"Name": "Torag's hammers",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/94/Torag%27s_hammers.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"StabAttack": -4,
 		"SlashAttack": -4,
@@ -323,6 +477,7 @@
 	{
 		"Name": "Verac's flail",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d1/Verac%27s_flail.png",
+		"Category": "Barrows",
 		"TwoHandWeapon": true,
 		"StabAttack": 68,
 		"SlashAttack": -2,
@@ -333,6 +488,7 @@
 	{
 		"Name": "Vesta's longsword",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/3b/Vesta%27s_longsword.png",
+		"Category": "PvP",
 		"StabAttack": 106,
 		"SlashAttack": 121,
 		"CrushAttack": -2,
@@ -344,6 +500,7 @@
 	{
 		"Name": "Vesta's spear",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/15/Vesta%27s_spear.png",
+		"Category": "PvP",
 		"TwoHandWeapon": true,
 		"StabAttack": 133,
 		"SlashAttack": 113,
@@ -356,6 +513,7 @@
 	{
 		"Name": "Zamorakian spear",
 		"ImageUrl": "https://runescape.wiki/images/archive/2/25/20120905175207%21Zamorakian_spear.png",
+		"Category": "Zamorakian spear",
 		"TwoHandWeapon": true,
 		"StabAttack": 85,
 		"SlashAttack": 65,
@@ -377,6 +535,7 @@
 	{
 		"Name": "Zuriel's staff",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/29/Zuriel%27s_staff.png",
+		"Category": "PvP",
 		"StabAttack": 13,
 		"SlashAttack": -1,
 		"CrushAttack": 65,

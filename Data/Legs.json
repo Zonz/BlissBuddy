@@ -2,6 +2,7 @@
 	{
 		"Name": "Ahrim's robe skirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/6/6d/Ahrim%27s_robeskirt.png",
+		"Category": "Barrows",
 		"MagicAttack": 22,
 		"RangeAttack": -7,
 		"StabDefence": 33,
@@ -15,6 +16,7 @@
 	{
 		"Name": "Armadyl chainskirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/55/Armadyl_chainskirt.png",
+		"Category": "Armadyl",
 		"StabAttack": -6,
 		"SlashAttack": -6,
 		"CrushAttack": -6,
@@ -33,6 +35,7 @@
 	{
 		"Name": "Bandos tassets",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/5d/Bandos_tassets.png",
+		"Category": "Bandos",
 		"MagicAttack": -21,
 		"RangeAttack": -7,
 		"StabDefence": 71,
@@ -49,6 +52,7 @@
 	{
 		"Name": "Battle-mage robe legs",
 		"ImageUrl": "https://runescape.wiki/images/b/b1/Battle-mage_robe_legs.png",
+		"Category": "Hybrid",
 		"MagicAttack": 25,
 		"RangeAttack": -21,
 		"StabDefence": 110,
@@ -64,6 +68,7 @@
 	{
 		"Name": "Dharok's platelegs",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/8/83/Dharok%27s_platelegs.png",
+		"Category": "Barrows",
 		"MagicAttack": -21,
 		"RangeAttack": -7,
 		"StabDefence": 85,
@@ -101,6 +106,7 @@
 	{
 		"Name": "Guthan's chainskirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/24/Guthan%27s_chainskirt.png",
+		"Category": "Barrows",
 		"MagicAttack": -14,
 		"RangeAttack": -7,
 		"StabDefence": 75,
@@ -124,6 +130,7 @@
 	{
 		"Name": "Karil's skirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/e/e1/Karil%27s_leatherskirt.png",
+		"Category": "Barrows",
 		"MagicAttack": -10,
 		"RangeAttack": 17,
 		"StabDefence": 26,
@@ -138,6 +145,7 @@
 	{
 		"Name": "Lucky Armadyl chainskirt",
 		"ImageUrl": "https://runescape.wiki/images/archive/8/8d/20160502051425%21Lucky_Armadyl_chainskirt.png",
+		"Category": "Armadyl",
 		"StabAttack": -6,
 		"SlashAttack": -6,
 		"CrushAttack": -6,
@@ -156,6 +164,7 @@
 	{
 		"Name": "Lucky Bandos tassets",
 		"ImageUrl": "https://runescape.wiki/images/c/c4/Lucky_Bandos_tassets.png",
+		"Category": "Bandos",
 		"MagicAttack": -21,
 		"RangeAttack": -7,
 		"StabDefence": 63,
@@ -172,6 +181,7 @@
 	{
 		"Name": "Morrigan's leather chaps",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/ae/Morrigan%27s_leather_chaps.png",
+		"Category": "PvP",
 		"MagicAttack": -10,
 		"RangeAttack": 23,
 		"StabDefence": 35,
@@ -186,6 +196,7 @@
 	{
 		"Name": "Pernix chaps",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/59/20120905194346%21Pernix_chaps.png",
+		"Category": "Nex",
 		"StabAttack": -6,
 		"SlashAttack": -6,
 		"CrushAttack": -6,
@@ -205,6 +216,7 @@
 	{
 		"Name": "Statius's platelegs",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/98/Statius%27s_platelegs.png",
+		"Category": "PvP",
 		"StabAttack": 3,
 		"SlashAttack": 3,
 		"CrushAttack": 5,
@@ -223,6 +235,7 @@
 	{
 		"Name": "Third-age druidic robe",
 		"ImageUrl": "https://runescape.wiki/images/archive/e/e8/20160502084020%21Third-age_druidic_robe.png",
+		"Category": "Third-age",
 		"MagicAttack": 4,
 		"MagicDefence": 4,
 		"SummoningDefence": 4,
@@ -231,6 +244,7 @@
 	{
 		"Name": "Third-age platelegs",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/7/76/3rd_age_platelegs.png",
+		"Category": "Third-age",
 		"MagicAttack": -25,
 		"RangeAttack": -2,
 		"StabDefence": 78,
@@ -245,6 +259,7 @@
 	{
 		"Name": "Third-age range legs",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d0/3rd_age_range_legs.png",
+		"Category": "Third-age",
 		"MagicAttack": -10,
 		"RangeAttack": 17,
 		"StabDefence": 31,
@@ -259,6 +274,7 @@
 	{
 		"Name": "Third-age robe",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/3a/3rd_age_robe.png",
+		"Category": "Third-age",
 		"MagicAttack": 19,
 		"MagicDefence": 19,
 		"SummoningDefence": 20,
@@ -268,6 +284,7 @@
 	{
 		"Name": "Torag's platelegs",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/3b/Torag%27s_platelegs.png",
+		"Category": "Barrows",
 		"MagicAttack": -21,
 		"RangeAttack": -7,
 		"StabDefence": 85,
@@ -282,6 +299,7 @@
 	{
 		"Name": "Torva platelegs",
 		"ImageUrl": "https://runescape.wiki/images/archive/b/b9/20120307182926%21Torva_platelegs.png",
+		"Category": "Nex",
 		"MagicAttack": -21,
 		"RangeAttack": -8,
 		"StabDefence": 112,
@@ -299,6 +317,7 @@
 	{
 		"Name": "Trickster robe legs",
 		"ImageUrl": "https://runescape.wiki/images/7/70/Trickster_robe_legs.png",
+		"Category": "Hybrid",
 		"MagicAttack": 25,
 		"RangeAttack": 27,
 		"MagicDefence": 36,
@@ -310,6 +329,7 @@
 	{
 		"Name": "Vanguard legs",
 		"ImageUrl": "https://runescape.wiki/images/2/25/Vanguard_legs.png",
+		"Category": "Hybrid",
 		"MagicAttack": -21,
 		"RangeAttack": 25,
 		"StabDefence": 110,
@@ -325,6 +345,7 @@
 	{
 		"Name": "Verac's plateskirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/8/8e/Verac%27s_plateskirt.png",
+		"Category": "Barrows",
 		"MagicAttack": -21,
 		"RangeAttack": -7,
 		"StabDefence": 85,
@@ -339,6 +360,7 @@
 	{
 		"Name": "Vesta's plateskirt",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/4/4a/Vesta%27s_plateskirt.png",
+		"Category": "PvP",
 		"StabAttack": 3,
 		"SlashAttack": 5,
 		"CrushAttack": 5,
@@ -357,6 +379,7 @@
 	{
 		"Name": "Virtus robe legs",
 		"ImageUrl": "https://runescape.wiki/images/archive/2/2b/20120905213737%21Virtus_robe_legs.png",
+		"Category": "Nex",
 		"MagicAttack": 26,
 		"RangeAttack": -8,
 		"StabDefence": 38,
@@ -382,6 +405,7 @@
 	{
 		"Name": "Zuriel's robe bottom",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/4/44/Zuriel%27s_robe_bottom.png",
+		"Category": "PvP",
 		"MagicAttack": 25,
 		"RangeAttack": -7,
 		"StabDefence": 38,

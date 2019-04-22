@@ -66,7 +66,10 @@ namespace BlissBuddy
 
         private void OpenContextMenu(object sender, Item[] items, RoutedEventHandler handler)
         {
+            var categories = new Dictionary<string, MenuItem>();
+            var sortedItems = new List<MenuItem>();
             ContextMenu menu = new ContextMenu();
+
             foreach (Item item in items)
             {
                 MenuItem menuItem = new MenuItem
@@ -75,8 +78,27 @@ namespace BlissBuddy
                     Tag = item,
                 };
                 menuItem.Click += handler;
-                menu.Items.Add(menuItem);
+
+                if (string.IsNullOrEmpty(item.Category))
+                {
+                    sortedItems.Add(menuItem);
+                }
+                else
+                {
+                    if (!categories.TryGetValue(item.Category, out MenuItem category))
+                    {
+                        category = new MenuItem
+                        {
+                            Header = item.Category,
+                        };
+                        sortedItems.Add(category);
+                        categories.Add(item.Category, category);
+                    }
+                    category.Items.Add(menuItem);
+                }
             }
+            sortedItems.Sort((a, b) => ((string)a.Header).CompareTo((string)b.Header));
+            menu.ItemsSource = sortedItems;
             menu.PlacementTarget = sender as Image;
             menu.IsOpen = true;
         }

@@ -2,6 +2,7 @@
 	{
 		"Name": "Ahrim's hood",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/23/Ahrim%27s_hood.png",
+		"Category": "Barrows",
 		"MagicAttack": 6,
 		"RangeAttack": -2,
 		"StabDefence": 15,
@@ -15,6 +16,7 @@
 	{
 		"Name": "Armadyl helmet",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/b/b7/Armadyl_helmet.png",
+		"Category": "Armadyl",
 		"StabAttack": -5,
 		"SlashAttack": -5,
 		"CrushAttack": -5,
@@ -33,6 +35,7 @@
 	{
 		"Name": "Battle-mage helm",
 		"ImageUrl": "https://runescape.wiki/images/b/b8/Battle-mage_helm.png",
+		"Category": "Hybrid",
 		"MagicAttack": 8,
 		"RangeAttack": -17,
 		"StabDefence": 65,
@@ -52,6 +55,7 @@
 	{
 		"Name": "Dharok's helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/8/86/Dharok%27s_helm.png",
+		"Category": "Barrows",
 		"MagicAttack": -3,
 		"RangeAttack": -1,
 		"StabDefence": 45,
@@ -98,6 +102,7 @@
 	{
 		"Name": "Guthan's helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/10/Guthan%27s_helm.png",
+		"Category": "Barrows",
 		"MagicAttack": -6,
 		"RangeAttack": -2,
 		"StabDefence": 55,
@@ -134,6 +139,7 @@
 	{
 		"Name": "Karil's coif",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/8/84/Karil%27s_coif.png",
+		"Category": "Barrows",
 		"MagicAttack": -1,
 		"RangeAttack": 3,
 		"StabDefence": 6,
@@ -148,6 +154,7 @@
 	{
 		"Name": "Lucky Armadyl helmet",
 		"ImageUrl": "https://runescape.wiki/images/archive/1/1b/20160502051436%21Lucky_Armadyl_helmet.png",
+		"Category": "Armadyl",
 		"StabAttack": -5,
 		"SlashAttack": -5,
 		"CrushAttack": -5,
@@ -170,6 +177,7 @@
 	{
 		"Name": "Morrigan's coif",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/f/fa/Morrigan%27s_coif.png",
+		"Category": "PvP",
 		"MagicAttack": -5,
 		"RangeAttack": 13,
 		"StabDefence": 8,
@@ -184,6 +192,7 @@
 	{
 		"Name": "Pernix cowl",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/51/20120905194436%21Pernix_cowl.png",
+		"Category": "Nex",
 		"StabAttack": -6,
 		"SlashAttack": -6,
 		"CrushAttack": -6,
@@ -207,6 +216,7 @@
 	{
 		"Name": "Statius's full helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/7/79/Statius%27s_full_helm.png",
+		"Category": "PvP",
 		"StabAttack": 3,
 		"SlashAttack": 3,
 		"CrushAttack": 4,
@@ -225,6 +235,7 @@
 	{
 		"Name": "Third-age druidic wreath",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/55/20160502084025%21Third-age_druidic_wreath.png",
+		"Category": "Third-age",
 		"MagicAttack": 3,
 		"MagicDefence": 4,
 		"SummoningDefence": 4,
@@ -233,6 +244,7 @@
 	{
 		"Name": "Third-age full helmet",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/a0/3rd_age_full_helmet.png",
+		"Category": "Third-age",
 		"MagicAttack": -5,
 		"RangeAttack": -2,
 		"StabDefence": 47,
@@ -247,6 +259,7 @@
 	{
 		"Name": "Third-age mage hat",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/f/fc/3rd_age_mage_hat.png",
+		"Category": "Third-age",
 		"MagicAttack": 8,
 		"MagicDefence": 8,
 		"SummoningDefence": 12,
@@ -256,6 +269,7 @@
 	{
 		"Name": "Third-age range coif",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/1d/3rd_age_range_coif.png",
+		"Category": "Third-age",
 		"MagicAttack": -2,
 		"RangeAttack": 9,
 		"StabDefence": 4,
@@ -270,6 +284,7 @@
 	{
 		"Name": "Torag's helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/36/Torag%27s_helm.png",
+		"Category": "Barrows",
 		"MagicAttack": -6,
 		"RangeAttack": -2,
 		"StabDefence": 55,
@@ -284,6 +299,7 @@
 	{
 		"Name": "Torva full helm",
 		"ImageUrl": "https://runescape.wiki/images/archive/0/01/20120307182844%21Torva_full_helm.png",
+		"Category": "Nex",
 		"MagicAttack": -7,
 		"RangeAttack": -3,
 		"StabDefence": 68,
@@ -301,6 +317,7 @@
 	{
 		"Name": "Trickster helm",
 		"ImageUrl": "https://runescape.wiki/images/5/5b/Trickster_helm.png",
+		"Category": "Hybrid",
 		"MagicAttack": 8,
 		"RangeAttack": 14,
 		"MagicDefence": 12,
@@ -312,6 +329,7 @@
 	{
 		"Name": "Vanguard helm",
 		"ImageUrl": "https://runescape.wiki/images/5/56/Vanguard_helm.png",
+		"Category": "Hybrid",
 		"MagicAttack": -17,
 		"RangeAttack": 14,
 		"StabDefence": 65,
@@ -327,6 +345,7 @@
 	{
 		"Name": "Verac's helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/a/aa/Verac%27s_helm.png",
+		"Category": "Barrows",
 		"MagicAttack": -6,
 		"RangeAttack": -2,
 		"StabDefence": 55,
@@ -341,6 +360,7 @@
 	{
 		"Name": "Virtus mask",
 		"ImageUrl": "https://runescape.wiki/images/archive/c/cb/20120905213736%21Virtus_mask.png",
+		"Category": "Nex",
 		"MagicAttack": 9,
 		"RangeAttack": -3,
 		"StabDefence": 20,
@@ -357,6 +377,7 @@
 	{
 		"Name": "Void mage helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/1/14/Void_mage_helm.png",
+		"Category": "Void",
 		"StabDefence": 6,
 		"SlashDefence": 6,
 		"CrushDefence": 6,
@@ -367,6 +388,7 @@
 	{
 		"Name": "Void melee helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/7/73/Void_melee_helm.png",
+		"Category": "Void",
 		"StabDefence": 6,
 		"SlashDefence": 6,
 		"CrushDefence": 6,
@@ -377,6 +399,7 @@
 	{
 		"Name": "Void ranger helm",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/34/Void_ranger_helm.png",
+		"Category": "Void",
 		"StabDefence": 6,
 		"SlashDefence": 6,
 		"CrushDefence": 6,
@@ -387,6 +410,7 @@
 	{
 		"Name": "Zuriel's hood",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/6/68/Zuriel%27s_hood.png",
+		"Category": "PvP",
 		"MagicAttack": 8,
 		"RangeAttack": -2,
 		"StabDefence": 20,

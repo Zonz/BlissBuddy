@@ -2,6 +2,7 @@
 	{
 		"Name": "Ahrim's robe top",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/d/d7/Ahrim%27s_robetop.png",
+		"Category": "Barrows",
 		"MagicAttack": 30,
 		"RangeAttack": -10,
 		"StabDefence": 52,
@@ -15,6 +16,7 @@
 	{
 		"Name": "Armadyl chestplate",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/3/38/Armadyl_chestplate.png",
+		"Category": "Armadyl",
 		"StabAttack": -7,
 		"SlashAttack": -7,
 		"CrushAttack": -7,
@@ -33,6 +35,7 @@
 	{
 		"Name": "Bandos chestplate",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/2/2e/Bandos_chestplate.png",
+		"Category": "Bandos",
 		"MagicAttack": -15,
 		"RangeAttack": -10,
 		"StabDefence": 98,
@@ -49,6 +52,7 @@
 	{
 		"Name": "Battle-mage robe",
 		"ImageUrl": "https://runescape.wiki/images/e/eb/Battle-mage_robe.png",
+		"Category": "Hybrid",
 		"MagicAttack": 38,
 		"RangeAttack": -30,
 		"StabDefence": 154,
@@ -64,6 +68,7 @@
 	{
 		"Name": "Dharok's platebody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/9c/Dharok%27s_platebody.png",
+		"Category": "Barrows",
 		"MagicAttack": -30,
 		"RangeAttack": -10,
 		"StabDefence": 122,
@@ -101,6 +106,7 @@
 	{
 		"Name": "Guthan's platebody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/4/4d/Guthan%27s_platebody.png",
+		"Category": "Barrows",
 		"MagicAttack": -30,
 		"RangeAttack": -10,
 		"StabDefence": 122,
@@ -124,6 +130,7 @@
 	{
 		"Name": "Karil's top",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/91/Karil%27s_leathertop.png",
+		"Category": "Barrows",
 		"MagicAttack": -15,
 		"RangeAttack": 30,
 		"StabDefence": 47,
@@ -138,6 +145,7 @@
 	{
 		"Name": "Lucky Armadyl chestplate",
 		"ImageUrl": "https://runescape.wiki/images/archive/5/52/20160502051427%21Lucky_Armadyl_chestplate.png",
+		"Category": "Armadyl",
 		"StabAttack": -7,
 		"SlashAttack": -7,
 		"CrushAttack": -7,
@@ -156,6 +164,7 @@
 	{
 		"Name": "Lucky Bandos chestplate",
 		"ImageUrl": "https://runescape.wiki/images/8/81/Lucky_Bandos_chestplate.png",
+		"Category": "Bandos",
 		"MagicAttack": -15,
 		"RangeAttack": -10,
 		"StabDefence": 88,
@@ -172,6 +181,7 @@
 	{
 		"Name": "Morrigan's leather body",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/93/Morrigan%27s_leather_body.png",
+		"Category": "PvP",
 		"MagicAttack": -15,
 		"RangeAttack": 36,
 		"StabDefence": 61,
@@ -186,6 +196,7 @@
 	{
 		"Name": "Pernix body",
 		"ImageUrl": "https://runescape.wiki/images/archive/6/64/20120905194426%21Pernix_body.png",
+		"Category": "Nex",
 		"StabAttack": -8,
 		"SlashAttack": -8,
 		"CrushAttack": -8,
@@ -205,6 +216,7 @@
 	{
 		"Name": "Statius's platebody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/f/f4/Statius%27s_platebody.png",
+		"Category": "PvP",
 		"StabAttack": 5,
 		"SlashAttack": 5,
 		"CrushAttack": 7,
@@ -223,6 +235,7 @@
 	{
 		"Name": "Third-age druidic robe top",
 		"ImageUrl": "https://runescape.wiki/images/archive/7/70/20160502084022%21Third-age_druidic_robe_top.png",
+		"Category": "Third-age",
 		"MagicAttack": 4,
 		"MagicDefence": 4,
 		"SummoningDefence": 3,
@@ -231,6 +244,7 @@
 	{
 		"Name": "Third-age platebody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/4/47/3rd_age_platebody.png",
+		"Category": "Third-age",
 		"MagicAttack": -20,
 		"StabDefence": 96,
 		"SlashDefence": 108,
@@ -244,6 +258,7 @@
 	{
 		"Name": "Third-age range top",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/8/80/3rd_age_range_top.png",
+		"Category": "Third-age",
 		"MagicAttack": -15,
 		"RangeAttack": 30,
 		"StabDefence": 55,
@@ -258,6 +273,7 @@
 	{
 		"Name": "Third-age robe top",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/0/08/3rd_age_robe_top.png",
+		"Category": "Third-age",
 		"MagicAttack": 24,
 		"MagicDefence": 24,
 		"SummoningDefence": 24,
@@ -267,6 +283,7 @@
 	{
 		"Name": "Torag's platebody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/6/6c/Torag%27s_platebody.png",
+		"Category": "Barrows",
 		"MagicAttack": -30,
 		"RangeAttack": -10,
 		"StabDefence": 122,
@@ -281,6 +298,7 @@
 	{
 		"Name": "Torva platebody",
 		"ImageUrl": "https://runescape.wiki/images/archive/8/81/20120307182146%21Torva_platebody.png",
+		"Category": "Nex",
 		"MagicAttack": -31,
 		"RangeAttack": -11,
 		"StabDefence": 156,
@@ -298,6 +316,7 @@
 	{
 		"Name": "Trickster robe",
 		"ImageUrl": "https://runescape.wiki/images/b/b2/Trickster_robe.png",
+		"Category": "Hybrid",
 		"MagicAttack": 38,
 		"RangeAttack": 39,
 		"MagicDefence": 52,
@@ -309,6 +328,7 @@
 	{
 		"Name": "Vanguard body",
 		"ImageUrl": "https://runescape.wiki/images/a/a8/Vanguard_body.png",
+		"Category": "Hybrid",
 		"MagicAttack": -30,
 		"RangeAttack": 39,
 		"StabDefence": 154,
@@ -324,6 +344,7 @@
 	{
 		"Name": "Verac's brassard",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c9/Verac%27s_brassard.png",
+		"Category": "Barrows",
 		"MagicAttack": -6,
 		"RangeAttack": -2,
 		"StabDefence": 81,
@@ -338,6 +359,7 @@
 	{
 		"Name": "Vesta's chainbody",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/9/94/Vesta%27s_chainbody.png",
+		"Category": "PvP",
 		"StabAttack": 5,
 		"SlashAttack": 7,
 		"CrushAttack": 7,
@@ -355,6 +377,7 @@
 	{
 		"Name": "Virtus robe top",
 		"ImageUrl": "https://runescape.wiki/images/archive/c/c1/20120905213737%21Virtus_robe_top.png",
+		"Category": "Nex",
 		"MagicAttack": 36,
 		"RangeAttack": -11,
 		"StabDefence": 63,
@@ -380,6 +403,7 @@
 	{
 		"Name": "Zuriel's robe top",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/5/59/Zuriel%27s_robe_top.png",
+		"Category": "PvP",
 		"MagicAttack": 35,
 		"RangeAttack": -10,
 		"StabDefence": 63,
