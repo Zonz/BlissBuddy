@@ -7,22 +7,6 @@
         mc:Ignorable="d"
         Title="BlissBuddy" Height="548" Width="800" MinWidth="625" MinHeight="548">
     <Grid>
-        <TabControl>
-            <TabItem Header="Skills">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="70*"/>
-                        <RowDefinition Height="349*"/>
-                    </Grid.RowDefinitions>
-                    <TextBox Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="120"/>
-                    <Button Content="Lookup Stats" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="72" Grid.Row="0" Click="LookupStats_Click" Height="23"/>
-                    <CheckBox Name="DXPCheckBox" Content="Double Exp" HorizontalAlignment="Right" Margin="0,10,34,0" VerticalAlignment="Top" Height="15" Width="80"/>
-                    <CheckBox Name="BrawlingGlovesCheckBox" Content="Brawling Gloves" HorizontalAlignment="Right" Margin="0,30,10,0" VerticalAlignment="Top" Height="15" Width="104"/>
-                    <CheckBox Name="WildernessCheckBox" Content="Wilderness" HorizontalAlignment="Right" Margin="0,50,10,0" VerticalAlignment="Top" Height="15" Width="104" IsEnabled="{Binding ElementName=BrawlingGlovesCheckBox, Path=IsChecked}"/>
-                    <TabControl Name="SkillViews" Grid.Row="1" Margin="10,10,10,10" HorizontalAlignment="Stretch"/>
-                </Grid>
-            </TabItem>
-            <TabItem Name="EquipmentTab" Header="Equipment"/>
-        </TabControl>
+        <TabControl Name="Tabs"/>
     </Grid>
 </Window>

@@ -23,7 +23,7 @@ namespace BlissBuddy.Views
 
         private ListBox currentSelectedList => experienceMethodLists[ExperienceMethodBox.SelectedIndex];
 
-        public SkillView(Skill skill, MainWindow mainWindow) : this(mainWindow)
+        public SkillView(Skill skill, SkillViewWindow parent) : this(parent)
         {
             InitializeComponent();
             Skill = skill;
@@ -118,13 +118,13 @@ namespace BlissBuddy.Views
             InputChanged();
         }
 
-        public void InputChanged()
+        public virtual void InputChanged()
         {
             try
             {
+                SetExperienceValues();
                 if (database == null)
                     return;
-                SetValues(ExperienceBox, PrestigeBox, TargetExperienceBox, TargetPrestigeBox);
                 string selection = (string)currentSelectedList.SelectedItem;
                 float baseExp = database[selection];
                 if (dxpChecked)

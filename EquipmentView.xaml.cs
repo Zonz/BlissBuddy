@@ -15,7 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 
-namespace BlissBuddy
+namespace BlissBuddy.Views
 {
     /// <summary>
     /// Interaction logic for EquipmentView.xaml

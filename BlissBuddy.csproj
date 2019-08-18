@@ -69,11 +69,15 @@
     </Compile>
     <Compile Include="ExperienceMethod.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="LampView.cs" />
     <Compile Include="Skill.cs" />
     <Compile Include="SkillView.xaml.cs">
       <DependentUpon>SkillView.xaml</DependentUpon>
     </Compile>
     <Compile Include="SkillViewControls.cs" />
+    <Compile Include="SkillViewWindow.xaml.cs">
+      <DependentUpon>SkillViewWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StreamReaderExtensions.cs" />
     <Page Include="EquipmentView.xaml">
       <SubType>Designer</SubType>
@@ -94,6 +98,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SkillView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SkillViewWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -132,6 +140,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Data\Helmets.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Lamps.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Data\Legs.json">

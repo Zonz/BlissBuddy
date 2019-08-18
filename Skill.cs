@@ -29,7 +29,7 @@ namespace BlissBuddy
             get => experience;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < GetRawExperience(value, Prestige))
+                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.Raw(value, Prestige))
                 {
                     TargetExperience = value;
                     TargetPrestige = Prestige;
@@ -48,7 +48,7 @@ namespace BlissBuddy
             get => prestige;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < GetRawExperience(Experience, value))
+                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.Raw(Experience, value))
                 {
                     TargetExperience = Experience;
                     TargetPrestige = value;
@@ -69,7 +69,7 @@ namespace BlissBuddy
             get => targetExp;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && GetRawExperience(value, TargetPrestige) < RawExperience)
+                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.Raw(value, TargetPrestige) < RawExperience)
                 {
                     value = Experience;
                     TargetPrestige = Prestige;
@@ -88,7 +88,7 @@ namespace BlissBuddy
             get => targetPrestige;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && GetRawExperience(TargetExperience, value) < RawExperience)
+                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.Raw(TargetExperience, value) < RawExperience)
                 {
                     TargetExperience = Experience;
                     value = Prestige;
@@ -105,14 +105,8 @@ namespace BlissBuddy
 
         public long RawExperienceToTarget => RawTargetExperience - RawExperience;
 
-        public long RawExperience => GetRawExperience(Experience, Prestige);
+        public long RawExperience => BlissBuddy.Experience.Raw(Experience, Prestige);
 
-        public long RawTargetExperience => GetRawExperience(TargetExperience, TargetPrestige);
-
-        private static long GetRawExperience(int experience, int prestige)
-        {
-            long modifier = (long)Math.Pow(2, prestige);
-            return experience * modifier + 200000000 * (modifier - 1);
-        }
+        public long RawTargetExperience => BlissBuddy.Experience.Raw(TargetExperience, TargetPrestige);
     }
 }

@@ -23,18 +23,21 @@ namespace BlissBuddy.Views
         private bool brawlingChecked => brawlingCheckbox.IsChecked.HasValue && brawlingCheckbox.IsChecked.Value;
         private bool wildernessChecked => wildernessCheckbox.IsChecked.HasValue && wildernessCheckbox.IsChecked.Value;
 
-        public SkillView(MainWindow mainWindow)
+        public SkillView(SkillViewWindow parent)
         {
-            dxpCheckbox = mainWindow.DXPCheckBox;
-            brawlingCheckbox = mainWindow.BrawlingGlovesCheckBox;
-            wildernessCheckbox = mainWindow.WildernessCheckBox;
+            if (parent != null)
+            {
+                dxpCheckbox = parent.DXPCheckBox;
+                brawlingCheckbox = parent.BrawlingGlovesCheckBox;
+                wildernessCheckbox = parent.WildernessCheckBox;
 
-            dxpCheckbox.Checked += CheckboxStateChanged;
-            dxpCheckbox.Unchecked += CheckboxStateChanged;
-            brawlingCheckbox.Checked += CheckboxStateChanged;
-            brawlingCheckbox.Unchecked += CheckboxStateChanged;
-            wildernessCheckbox.Checked += CheckboxStateChanged;
-            wildernessCheckbox.Unchecked += CheckboxStateChanged;
+                dxpCheckbox.Checked += CheckboxStateChanged;
+                dxpCheckbox.Unchecked += CheckboxStateChanged;
+                brawlingCheckbox.Checked += CheckboxStateChanged;
+                brawlingCheckbox.Unchecked += CheckboxStateChanged;
+                wildernessCheckbox.Checked += CheckboxStateChanged;
+                wildernessCheckbox.Unchecked += CheckboxStateChanged;
+            }
         }
 
         private void CheckboxStateChanged(object sender, RoutedEventArgs e)
@@ -138,16 +141,12 @@ namespace BlissBuddy.Views
             }
         }
 
-        private void SetValues(TextBox experienceBox, TextBox prestigeBox, TextBox targetExperienceBox, TextBox targetPrestigeBox)
+        protected void SetExperienceValues()
         {
-            if (!int.TryParse(experienceBox.Text, out int experience)) return;
-            if (!int.TryParse(prestigeBox.Text, out int prestige)) return;
-            if (!int.TryParse(targetExperienceBox.Text, out int targetExperience)) return;
-            if (!int.TryParse(targetPrestigeBox.Text, out int targetPrestige)) return;
-            Skill.Experience = experience;
-            Skill.Prestige = prestige;
-            Skill.TargetExperience = targetExperience;
-            Skill.TargetPrestige = targetPrestige;
+            if (int.TryParse(ExperienceBox.Text, out int i)) Skill.Experience = i;
+            if (int.TryParse(PrestigeBox.Text, out i)) Skill.Prestige = i;
+            if (int.TryParse(TargetExperienceBox.Text, out i)) Skill.TargetExperience = i;
+            if (int.TryParse(TargetPrestigeBox.Text, out i)) Skill.TargetPrestige = i;
         }
     }
 }
