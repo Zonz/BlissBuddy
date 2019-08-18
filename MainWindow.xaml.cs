@@ -48,7 +48,7 @@ namespace BlissBuddy
             }
         }
 
-        private void LookupStats_Click(object sender, RoutedEventArgs e)
+        private async void LookupStats_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -60,7 +60,8 @@ namespace BlissBuddy
                 }
                 using (WebClient web = new WebClient())
                 {
-                    using (StreamReader reader = new StreamReader(web.OpenRead("http://blissscape.net/highscores/?player=" + name.Replace(" ", "+"))))
+                    Stream stream = await web.OpenReadTaskAsync(new Uri("http://blissscape.net/highscores/?player=" + name.Replace(" ", "+")));
+                    using (StreamReader reader = new StreamReader(stream))
                     {
                         reader.ReadLines(23);
                         if (reader.ReadLine().Contains("alert"))
