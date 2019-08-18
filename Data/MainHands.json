@@ -419,11 +419,28 @@
 	{
 		"Name": "Noxious scythe",
 		"ImageUrl": "https://runescape.wiki/images/d/d3/Noxious_scythe.png",
+		"Category": "Noxious",
 		"TwoHandWeapon": true,
 		"StabAttack": 219,
 		"SlashAttack": 221,
 		"CrushAttack": 188,
 		"Strength": 196
+	},
+	{
+		"Name": "Noxious staff",
+		"ImageUrl": "https://vignette.wikia.nocookie.net/runescape2/images/3/3b/Noxious_staff.png",
+		"Category": "Noxious",
+		"TwoHandWeapon": true,
+		"SlashAttack": -1,
+		"CrushAttack": 91,
+		"MagicAttack": 68,
+		"StabDefence": 14,
+		"SlashDefence": 19,
+		"CrushDefence": 12,
+		"MagicDefence": 31,
+		"RangeDefence": 4,
+		"Strength": 79,
+		"MagicDamage": 32
 	},
 	{
 		"Name": "Saradomin sword",
