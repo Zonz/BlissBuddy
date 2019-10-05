@@ -1,21 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace BlissBuddy.Views
 {
-    public partial class SkillView : UserControl
+    public partial class SkillView : SkillViewBase
     {
         private Dictionary<string, float> database;
 
@@ -23,10 +14,9 @@ namespace BlissBuddy.Views
 
         private ListBox currentSelectedList => experienceMethodLists[ExperienceMethodBox.SelectedIndex];
 
-        public SkillView(Skill skill, SkillViewWindow parent) : this(parent)
+        public SkillView(Skill skill, SkillViewWindow parent) : base(skill, parent)
         {
             InitializeComponent();
-            Skill = skill;
             DataContext = Skill;
 
             if (skill.ExperienceMethods == null || skill.ExperienceMethods.Length == 0)
@@ -118,7 +108,7 @@ namespace BlissBuddy.Views
             InputChanged();
         }
 
-        public virtual void InputChanged()
+        public override void InputChanged()
         {
             try
             {
@@ -140,6 +130,14 @@ namespace BlissBuddy.Views
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        protected void SetExperienceValues()
+        {
+            if (int.TryParse(ExperienceBox.Text, out int i)) Skill.Experience = i;
+            if (int.TryParse(PrestigeBox.Text, out i)) Skill.Prestige = i;
+            if (int.TryParse(TargetExperienceBox.Text, out i)) Skill.TargetExperience = i;
+            if (int.TryParse(TargetPrestigeBox.Text, out i)) Skill.TargetPrestige = i;
         }
     }
 }

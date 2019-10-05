@@ -14,13 +14,15 @@ namespace BlissBuddy.Views
     public partial class SkillViewWindow : UserControl
     {
         private Dictionary<string, SkillView> skillViews;
+        private Dictionary<string, PotentialExpView> potentialExpViews;
 
         public SkillViewWindow()
         {
             InitializeComponent();
 
-            skillViews = new Dictionary<string, SkillView>();
             Skill[] skills = JsonConvert.DeserializeObject<Skill[]>(File.ReadAllText("Data/Skills.json"));
+            skillViews = new Dictionary<string, SkillView>();
+            potentialExpViews = new Dictionary<string, PotentialExpView>();
             foreach (Skill skill in skills)
             {
                 SkillView view = new SkillView(skill, this);
@@ -29,6 +31,15 @@ namespace BlissBuddy.Views
                 {
                     Header = skill.Name,
                     Content = view,
+                });
+
+                // Make a copy of the skill so we can modify its values independantly
+                PotentialExpView pView = new PotentialExpView(new Skill { Name = skill.Name, ExperienceMethods = skill.ExperienceMethods }, this);
+                potentialExpViews.Add(skill.Name, pView);
+                PotentialExpViews.Items.Add(new TabItem
+                {
+                    Header = skill.Name,
+                    Content = pView,
                 });
             }
         }
@@ -65,6 +76,13 @@ namespace BlissBuddy.Views
                             skillView.Skill.Experience = stats.Experience;
                             skillView.Skill.Prestige = stats.Prestige;
                             skillView.InputChanged();
+
+                            if (!potentialExpViews.TryGetValue(stats.Name, out PotentialExpView pView))
+                                continue;
+                            pView.Skill.Rank = stats.Rank;
+                            pView.Skill.Experience = stats.Experience;
+                            pView.Skill.Prestige = stats.Prestige;
+                            pView.InputChanged();
                         }
                     }
                 }

@@ -419,7 +419,10 @@
 					"Cut Diamond": 8170,
 					"Cut Ruby": 6460,
 					"Cut Emerald": 5092,
-					"Cut Sapphire": 3800
+					"Cut Sapphire": 3800,
+					"Cut Red Topaz": 1900,
+					"Cut Jade": 1520,
+					"Cut Opal": 1140
 				}
 			}
 		]
@@ -473,7 +476,12 @@
 					"Extreme Ranging": 19760,
 					"Extreme Magic": 19000,
 					"Prayer Renewal": 14440,
-					"Prayer Potion": 6650
+					"Prayer Potion": 6650,
+					"Combat Potion": 6384,
+					"Defence Potion": 5700,
+					"Strength Potion": 3800,
+					"Antipoison": 2850,
+					"Attack Potion": 1900
 				}
 			}
 		]
@@ -550,21 +558,21 @@
 				"IterationText": "Essence",
 				"BaseExpText": "essence",
 				"ExperienceTable": {
-					"ZMI": 1337.24,
-					"Blood": 798,
-					"Death": 760,
-					"1:1 Death/Blood": 779,
-					"2:1 Death/Blood": 772.67,
-					"Law": 722,
-					"Nature": 684,
-					"Chaos": 646,
-					"Cosmic": 608,
-					"Body": 570,
-					"Fire": 532,
-					"Earth": 494,
-					"Water": 456,
-					"Mind": 418,
-					"Air": 380
+					"ZMI": 2637.42,
+					"Blood": 1596,
+					"Death": 1520,
+					"1:1 Death/Blood": 1558,
+					"2:1 Death/Blood": 1545.33,
+					"Law": 1444,
+					"Nature": 1368,
+					"Chaos": 1292,
+					"Cosmic": 1216,
+					"Body": 1140,
+					"Fire": 1064,
+					"Earth": 988,
+					"Water": 912,
+					"Mind": 836,
+					"Air": 760
 				}
 			}
 		]

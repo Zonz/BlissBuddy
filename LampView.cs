@@ -22,10 +22,9 @@ namespace BlissBuddy.Views
                 int currentPrestige = Skill.Prestige;
                 int lamps = 0;
                 long rawTarget = Skill.RawTargetExperience;
-                while (Experience.Raw((int)currentExp, currentPrestige) < rawTarget)
+                while (Experience.ToRaw((int)currentExp, currentPrestige) < rawTarget)
                 {
                     currentExp += Experience.Lamp(Experience.ToLevel((int)currentExp), currentPrestige);
-                    int current = Experience.ToLevel((int)currentExp);
                     if (currentExp >= 200000000)
                     {
                         currentExp = 1;

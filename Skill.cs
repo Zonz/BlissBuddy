@@ -29,7 +29,7 @@ namespace BlissBuddy
             get => experience;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.Raw(value, Prestige))
+                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.ToRaw(value, Prestige))
                 {
                     TargetExperience = value;
                     TargetPrestige = Prestige;
@@ -48,7 +48,7 @@ namespace BlissBuddy
             get => prestige;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.Raw(Experience, value))
+                if (FORCE_TARGET_TO_BE_HIGHER && RawTargetExperience < BlissBuddy.Experience.ToRaw(Experience, value))
                 {
                     TargetExperience = Experience;
                     TargetPrestige = value;
@@ -69,7 +69,7 @@ namespace BlissBuddy
             get => targetExp;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.Raw(value, TargetPrestige) < RawExperience)
+                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.ToRaw(value, TargetPrestige) < RawExperience)
                 {
                     value = Experience;
                     TargetPrestige = Prestige;
@@ -88,7 +88,7 @@ namespace BlissBuddy
             get => targetPrestige;
             set
             {
-                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.Raw(TargetExperience, value) < RawExperience)
+                if (FORCE_TARGET_TO_BE_HIGHER && BlissBuddy.Experience.ToRaw(TargetExperience, value) < RawExperience)
                 {
                     TargetExperience = Experience;
                     value = Prestige;
@@ -105,8 +105,8 @@ namespace BlissBuddy
 
         public long RawExperienceToTarget => RawTargetExperience - RawExperience;
 
-        public long RawExperience => BlissBuddy.Experience.Raw(Experience, Prestige);
+        public long RawExperience => BlissBuddy.Experience.ToRaw(Experience, Prestige);
 
-        public long RawTargetExperience => BlissBuddy.Experience.Raw(TargetExperience, TargetPrestige);
+        public long RawTargetExperience => BlissBuddy.Experience.ToRaw(TargetExperience, TargetPrestige);
     }
 }
