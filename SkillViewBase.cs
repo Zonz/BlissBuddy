@@ -136,9 +136,8 @@ namespace BlissBuddy.Views
         protected void MaxExp_Click(object sender, RoutedEventArgs e)
         {
             ContextMenu menu = FindAncestor<ContextMenu>((FrameworkElement)sender);
-            if (menu != null)
+            if (menu != null && menu.PlacementTarget is TextBox source)
             {
-                TextBox source = (TextBox)menu.PlacementTarget;
                 source.Text = "200000000";
                 Keyboard.ClearFocus();
                 InputChanged();
