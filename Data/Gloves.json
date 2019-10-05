@@ -49,6 +49,23 @@
 		"Strength": 9
 	},
 	{
+		"Name": "Goliath gloves",
+		"ImageUrl": "https://runescape.wiki/images/archive/8/8a/20160502041007%21Goliath_gloves_%28black%29.png",
+		"Category": "Dominion gloves",
+		"StabAttack": 14,
+		"SlashAttack": 14,
+		"CrushAttack": 14,
+		"MagicAttack": 6,
+		"RangeAttack": 12,
+		"StabDefence": 16,
+		"SlashDefence": 16,
+		"CrushDefence": 16,
+		"MagicDefence": 6,
+		"RangeDefence": 12,
+		"SummoningDefence": 6,
+		"Strength": 13
+	},
+	{
 		"Name": "Infinity gloves",
 		"ImageUrl": "https://oldschool.runescape.wiki/images/c/c2/Infinity_gloves.png",
 		"MagicAttack": 5,
@@ -67,6 +84,36 @@
 		"RangeDefence": 5,
 		"Prayer": 1,
 		"HealthBonus": 25
+	},
+	{
+		"Name": "Spellcaster gloves",
+		"ImageUrl": "https://runescape.wiki/images/archive/0/0b/20160502075644%21Spellcaster_gloves_%28black%29.png",
+		"Category": "Dominion gloves",
+		"StabAttack": 2,
+		"SlashAttack": 2,
+		"CrushAttack": 2,
+		"MagicAttack": 8,
+		"StabDefence": 4,
+		"SlashDefence": 5,
+		"CrushDefence": 4,
+		"MagicDefence": 9,
+		"RangeDefence": 3,
+		"SummoningDefence": 5
+	},
+	{
+		"Name": "Swift gloves",
+		"ImageUrl": "https://runescape.wiki/images/archive/1/1e/20160502083045%21Swift_gloves_%28black%29.png",
+		"Category": "Dominion gloves",
+		"SlashAttack": -1,
+		"CrushAttack": -1,
+		"MagicAttack": -2,
+		"RangeAttack": 15,
+		"StabDefence": -2,
+		"SlashDefence": -1,
+		"CrushDefence": 1,
+		"MagicDefence": -1,
+		"RangeDefence": 15,
+		"SummoningDefence": 4
 	},
 	{
 		"Name": "Third-age vambraces",

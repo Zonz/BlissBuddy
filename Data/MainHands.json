@@ -191,6 +191,31 @@
 		"Strength": 105
 	},
 	{
+		"Name": "Dominion crossbow",
+		"ImageUrl": "https://runescape.wiki/images/d/d6/Dominion_crossbow.png",
+		"Category": "Dominion",
+		"RangeAttack": 135,
+		"RangedStrength": 115
+	},
+	{
+		"Name": "Dominion staff",
+		"ImageUrl": "https://runescape.wiki/images/a/a0/Dominion_staff.png",
+		"Category": "Dominion",
+		"MagicAttack": 20,
+		"MagicDefence": 20,
+		"MagicDamage": 15
+	},
+	{
+		"Name": "Dominion sword",
+		"ImageUrl": "https://runescape.wiki/images/4/48/Dominion_sword.png",
+		"Category": "Dominion",
+		"TwoHandWeapon": true,
+		"SlashAttack": 165,
+		"CrushAttack": 100,
+		"Strength": 165,
+		"Prayer": 11
+	},
+	{
 		"Name": "Dragon 2h sword",
 		"ImageUrl": "https://runescape.wiki/images/archive/e/e5/20121121001752%21Dragon_2h_sword.png",
 		"Category": "Dragon 2h sword",
