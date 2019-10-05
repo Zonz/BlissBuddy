@@ -15,6 +15,16 @@ namespace BlissBuddy.Views
 
         private ItemQuantityPanel[] items;
 
+        private int startExperience;
+
+        private int startPrestige;
+
+        public void SetStartPoint()
+        {
+            startExperience = Skill.Experience;
+            startPrestige = Skill.Prestige;
+        }
+
         public PotentialExpView(Skill skill, SkillViewWindow parent) : base(skill, parent)
         {
             InitializeComponent();
@@ -89,6 +99,17 @@ namespace BlissBuddy.Views
         {
             Skill.Experience = int.Parse(EndExperience.Content.ToString());
             Skill.Prestige = int.Parse(EndPrestige.Content.ToString());
+            foreach (var item in items)
+                item.Clear();
+            InputChanged();
+        }
+
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            Skill.Experience = startExperience;
+            Skill.Prestige = startPrestige;
+            foreach (var item in items)
+                item.Clear();
             InputChanged();
         }
     }

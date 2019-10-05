@@ -82,6 +82,7 @@ namespace BlissBuddy.Views
                             pView.Skill.Rank = stats.Rank;
                             pView.Skill.Experience = stats.Experience;
                             pView.Skill.Prestige = stats.Prestige;
+                            pView.SetStartPoint();
                             pView.InputChanged();
                         }
                     }
