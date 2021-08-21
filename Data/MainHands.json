@@ -442,6 +442,13 @@
 		"RangedStrength": 117
 	},
 	{
+		"Name": "Noxious longbow",
+		"ImageUrl": "https://runescape.wiki/images/archive/7/78/20160502055558%21Noxious_longbow.png",
+		"Category": "Noxious",
+		"TwoHandWeapon": true,
+		"RangeAttack": 184,
+	},
+	{
 		"Name": "Noxious scythe",
 		"ImageUrl": "https://runescape.wiki/images/d/d3/Noxious_scythe.png",
 		"Category": "Noxious",
